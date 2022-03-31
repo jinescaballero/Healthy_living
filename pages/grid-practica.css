@@ -1,0 +1,200 @@
+@font-face{
+    font-family :"Poppins";
+    src: url('../assets/font/Poppins/Poppins-Medium.ttf');
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{   
+    font-family:'poppins';
+}
+.navbar{
+    background-color:lightgrey;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    align-items: center;
+    /*background-image:linear-gradient(lightcyan, gray);*/
+    /*background-image:linear-gradient(to left,lightcyan, gray);*/
+   /* background-image:radial-gradient(lightcyan, violet) ;*/
+   /* background-image:radial-gradient(lightcyan, yellow) ;*/
+   /* background-image: radial-gradient( circle farthest-corner at 0.3% 1.4%,  rgba(55,177,251,1) 0%, rgba(172,121,255,1) 100.7% );*/
+    background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2b96, #a8c0ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.navbar .logo{
+    width:90px;
+    height:80px;
+    grid-column: 2/3;
+    /*transform: translate(500px);*/
+    /*transform: translate(200px,300px);*/
+    /*transform: rotate(70deg); /*si es positivo rota a la derecha, si es negativo a la izquierda)*/
+    /*transform: translate(200px,300px) scale(2,2) rotate(70deg);/*agranda*/
+    /*transform: scale(2,2);/*agranda*/
+    /*transform: skew(20deg,10deg);*/
+    /*transform: skewX(20deg);*/
+    animation-name:rotar_logo;
+    animation-iteration-count:infinite;
+    animation-timing-function:lineal;
+    animation-duration:3s;
+    animation-delay:3s
+}
+@keyframes rotar_logo {
+    0%{
+        transform:rotateX(0deg);
+    }
+    
+    50%{
+        transform:rotateX(180deg);
+    }
+    
+    100%{
+        transform:rotateX(360deg);
+    }
+}
+
+/*Animate.css*/
+.artista-plastica{
+    animation-name:bounce;
+    animation-duration:3s;
+}
+
+.navbar .menu{
+    display: flex;
+    grid-column: 4/7;
+    justify-content:space-around ;
+}
+.navbar .menu li{
+    list-style: none;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+}
+.navbar .menu-bar{
+    display:none;
+}
+.navbar .shop{
+    grid-column:8/9;
+}
+.principal{
+    height:80vh;
+    background-image: url('/assets/background/thailand.jpg');
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: (8,1fr);
+}
+.principal .contenido{
+    grid-column: 8/10;
+    grid-row: 3/7;
+    color: #fff;
+}
+.principal h3{
+    font-size:20px;
+    font-weight: 300;
+}
+.principal h1{
+    font: size 35px;
+    color:yellow;
+    text-transform: uppercase;
+}
+.principal p{
+    font-weight: 200;
+}
+.principal .boton{
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 600;
+    background:none;
+    color:#fff;
+    padding: 10px 20px;
+    border:solid 2px white;
+    border-radius:20px;
+    margin-top:15px;
+    cursor:pointer;
+    /*transition:all 5s;*/
+    transition-duration:5s;
+    /*transition-property: witdth,background-color;*/
+    transition-property: height,background-color;
+    transition-timing-function:linear;
+}
+.principal .boton:hover{
+    /*transform:translate(-30px);*/
+    /*color: black;*/
+    background-color: white;
+    /*width: 500px;*/
+    height: 300px;
+
+
+}
+/*footer*/
+.piedepagina{
+    display: grid;
+    height:88px;
+    align-items: center;
+    background-color: #808080;
+    color:yellow;
+    grid-template-areas:"desarrollado seguime redes-sociales";
+}
+.piedepagina .desarrolado{
+    grid-area:desarrolado;
+    display: flex;
+    justify-content: center;
+}
+
+.piedepagina .seguime{
+    grid-area:seguime;
+    display: flex;
+    justify-content: center;
+}
+.piedepagina .redes-sociales{
+    grid-area:redes-sociales;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width:601px) and (max-width:900px){
+    .navbar{
+        position:relative;
+    }
+    .navbar .shop{
+        display: none;
+    }
+    .navbar .menu-bar{
+        display: block;
+        grid-column: 8/9;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .navbar .menu{
+        display: none;
+    }
+
+}
+
+@media (min-width:901px) and (max-width:1024px){
+    .navbar{
+        position:relative;
+    }
+    .navbar .shop{
+        display: inline;
+    }
+    .navbar .menu-bar{
+        display: block;
+        grid-column: 8/9;
+    }
+    .navbar .menu{
+        grid-column:4/8;
+        font-size:16px;
+        display:inline;
+    }
+
+}

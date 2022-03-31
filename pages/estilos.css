@@ -1,0 +1,557 @@
+.bordesredondeados{
+    border: solid px black;
+    border-radius: 20px;
+}
+
+@font-face{
+        font-family :"Poppins";
+        src: url('../assets/font/Poppins/Poppins-ExtraLightItalic.ttf');
+}
+
+
+body{
+    font-family:"Poppins";
+}
+.caja-destacada{
+    padding:5px 5px 5px 1px;
+    height: 70px;
+    color: rgb(203, 147, 255);
+    font-size: 50px;
+    background: #e2fdf4;
+    margin-bottom:30px;
+    margin-top:50px;
+    font-weight: bold;
+    line-height:60px !important;
+    text-align: center;
+    border: 2px solid #b6f8d0;
+    border-radius: 6px;
+     /* border: 2px solid rgb(171, 236, 171);*/
+}
+
+.caja-body{
+    padding:5px 922px 748px 5px;
+    background: #e2fdf4;
+    /*margin-bottom:20px;*/
+    /*margin-top:20px;*/
+    font-weight: bold;
+    line-height:35px !important;
+    text-align: center;
+    border: 2px solid #b6f8d0;
+    border-radius: 6px;
+     /* border: 2px solid rgb(171, 236, 171);*/
+}
+
+
+.contenedor {
+    height: 45px;
+    margin: 0px 0px 5px 100px;
+    background: #ffffff;
+    font-size: 20px;
+    position: center ;
+    text-align: center;
+}
+
+
+.foto_left { 
+    /*padding: 5px; */
+    /*margin: 1px;*/
+   /* border: 2px solid rgb(171, 236, 171);*/
+    float: left; 
+    width: 100px;
+
+}
+.foto_right { 
+   /* padding: 5px; */
+   /*margin: 1px ;*/
+   /* border: 2px solid rgb(171, 236, 171);*/
+    float: right; 
+    width: 100px;
+}
+
+
+
+/*prueba titulo-encabezado*/
+
+.caja-destacada1{
+    padding:5px 5px 5px 1px;
+    height: 70px;
+    color: rgb(203, 147, 255);
+    font-size: 50px;
+    background: #e2fdf4;
+    margin-bottom:30px;
+    margin-top:50px;
+    font-weight: bold;
+    line-height:60px !important;
+    text-align: center;
+    border: 2px solid #b6f8d0;
+    border-radius: 6px;
+}
+
+
+.img_trans{
+    filter:opacity(.5);
+    width:1300px;
+}
+
+/*BEM*/
+/*Bloque 1*/
+.tarjeta{
+    /*max-width: 96%;*/
+    /*background-color: beige;*/
+    background-color:#edf6f9;
+    /*padding: 20px 20px 20px 20px;*/
+    height:330px;
+    width:60%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin : 0 auto;
+    /*text-align: center;*/
+    position: relative;
+    border-radius: 20px;
+    /*border: solid 1px black;*/
+    /*display: block ;*/
+    
+}
+.tarjeta__imagen{
+    /*margin-top: 10px;
+    margin-bottom:10px;*/
+    padding: 5px;
+    left: 30px;
+    width:200px;
+    height: 270px;
+    text-align: center;
+   /* border-radius: 20px;*/
+   /* background-color:#e2fdf4 ;*/
+    display: inline-block ;
+    position: absolute;
+    /*border: solid 1px black;*/
+    
+}
+
+.tarjeta__imagen img{
+/*    margin-top: 20px;
+    margin-bottom:10px;
+    padding: 5px;
+    left: 20px;
+    width:160px;*/
+    height: 250px;
+    text-align: right;
+ /*  /* border-radius: 20px;
+   /* background-color:beige;
+  /*  position: absolute;
+    display: inline-block ;*/
+     
+}
+
+.tarjeta__titulo{
+    font-family: Poppins;
+    font-size: 40px;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+   /*border: solid 1px black;*/
+}
+.tarjeta__enlace{
+    color: black;
+
+}
+.tarjeta__parrafo{
+    font-size: 25px;
+    /*left: 2400px;*/
+    width: 1300px;
+    height: 300px;
+   /* line-height: 25px;*/
+    /*padding: 5px;*/
+    /*padding-left:20px;*/
+    /*border: solid 1px black;*/
+    margin-bottom: 20px;
+    /*margin-left: 30px;*/
+    right: 20px;
+   /* display: inline-block;*/
+   /* position: right ;*/
+     position: absolute;
+   
+}
+
+/*
+
+.grilla{
+    padding:5px 5px 5px 1px;
+    height: 60px;
+    font-size: 20px;
+    background: #e2fdf4;
+    margin-bottom:30px;
+    /*margin-top:0px;*/
+    /*font-weight: bold;*/
+    /*line-height:60px !important;
+    text-align: center;
+    border: 2px solid #b6f8d0;
+    border-radius: 20px;
+    position: relative;
+   
+}*/
+
+.grilla1{
+    /*max-width: 96%;*/
+    /*background-color: beige;*/
+    background-color:#edf6f9;
+    /*padding: 20px 20px 20px 20px;*/
+    /*height:330px;*/
+    margin : 0 auto;
+    /*text-align: center;*/
+    position: relative;
+    /*border: solid 1px black;*/
+    /*display: block ;*/
+    text-align:"center";
+    background-color: "#FFFFFF";
+   
+    
+}
+.grilla1__imagen{
+    /*margin-top: 10px;
+    margin-bottom:10px;*/
+    width:200px;
+    height: 270px;
+    text-align: center;
+   /* border-radius: 20px;*/
+   /* background-color:#e2fdf4 ;*/
+    display: block ;
+    position: relative;
+   /* margin : 0 auto;*/
+    /*border: solid 1px black;*/
+    
+}
+/*
+.tarjeta__parrafo p{
+    font-size: 25px;
+    left: 400px;
+    width: 1300px;
+    line-height: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    display: inline-block;
+    position: right ;
+    font-family:"Poppins";
+    display: inline-block;
+    border: solid 1px black;
+}*/
+
+
+.footer1{
+    padding-top: 10px;
+    height: 40px;
+    background-color: #e2fdf4;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #b6f8d0;
+    
+}
+.footer1__img{
+    padding: 30px;
+    left: 10px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color:#fff ;
+    display: inline-block;
+    font-family:"Poppins";
+}
+
+
+.flex-container{
+    width:1000px;
+    height: 1000px;
+    background-color: beige;
+    margin:auto;
+    display:flex; /*transformo fila en columna*/
+    flex-direction: row; /*se apilan las cajas de arriba a abajo*/ /*  flex-direction: row; este es el predeterminado*/
+   /* flex-direction: column;*/
+    flex-wrap: wrap; /*si meto 100 divs voy a tener que usar scrool, porque no se corta*/
+    /*justify-content: center;*/
+    justify-content: flex-start;
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    /*align-items:center ;/*alinea los elementos en el eje secundario*/
+    align-items:stretch ;
+    align-content:space-between;
+}
+.flex-item{
+    background-color:rgb(190, 253, 232) ;
+    width: 250px;
+    height: 250px;
+    background-color:bisque ;
+    margin:30px;
+    align-self: center;
+
+}
+.flex-item2{
+    background-color:rgb(190, 253, 232) ;
+    width: 250px;
+    height: 250px;
+    background-color:#555 ;
+    margin:30px;
+
+}
+.flex-item:neh-child(odd){
+    background-color: black;
+    align-self: center;
+}
+
+.flex-item2{
+    width: 250px;
+    height: 250px;
+    background-color: azure;
+    order: 4px;
+}
+
+.main-header {
+    background-image:url('../assets/background/saludable.png');
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    width: 100%;
+    height: 100%;
+}
+
+h1.logo {
+    text-indent: -9999px;
+    height:115px;
+    margin-top: 10%;
+}
+
+.block__element {
+    background-color: rgb(158, 162, 167);
+}
+
+.container{ /*esto va a aplicar a las imagenes que estan adentro de caja*/
+    margin-top: 30px;
+    background-color: rgb(141, 39, 39);
+    width: 100%;
+    display: flex;
+    height: 700px;
+    flex-direction: row;
+    justify-content: flex-end; /*alinea en el eje principal*/
+   /* align-items: flex-start;*/
+}
+
+.caja_img{
+    height: 250px;
+}
+.caja{
+    margin: 15px;
+}
+.caja p{  /*formato del parrafo de la clase caja*/
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*resetea todos los estilos de la pagina html*
+*{
+    margin:0;
+    padding:0;
+}
+#encabezados{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:50px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+/***interlineado***/
+ol{
+    list-style-type:none;
+}
+/***interlineado***/
+p{
+    line-height: 1.5;
+}
+
+p{ font-family: 'Roboto', sans-serif;
+
+}
+
+/***rectangulo***/
+.rectangulo {
+    width: 500px; 
+    height: 100px; 
+    background: #94f1d2;
+}
+
+
+/***tachado por ejemplo***/
+a{
+    text-decoration: none;
+}
+
+ /***background
+body{
+    background-image: url('../assets/background/saludable.jpg');
+    background-repeat: repeat;
+}
+***/
+
+/*
+.contenedor{
+    position: relative ;
+    display: inline-block;
+    text-align: center;
+}*/
+.texto-encima{
+    position:fixed ;
+    top: 8px;
+    left: 8px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rectangulo-aqua{
+    background-color: aquamarine;
+}
+
+#principal{
+    padding:15px;
+    background-image:url('../assets/background/backgroundColor.jpg');
+
+    background-size: cover;
+
+
+}
+/*metodologia bem*/
+
+
+/*Bloque2*/
+.boton{
+    display:inline-block;
+    padding:12px 25px;/* es izquierda y derecha*/
+    background-color: #000;
+    border-radius: 10px;
+    text-decoration:none;
+}
+.boton__texto{
+    color: #ffffff;
+    font-size:18px;
+}
+
+/*Modificador BEM*/
+.boton--alternativo{ /*el nombre que nosotrs queramos siempre y cuando cumpla con la sintaxis del bloque*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*cajas*/
+/*.caja1{
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding:20px 15px 30px 40px; /*20 arriba , 15 derecha..., 140 a la izquierda es como las vueltas del reloj
+}*/
+
+/*.caja1{
+    padding:5px;
+    font-size: 30px;
+    width: 200px;
+    height: 150px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: solid 1px black; /*border: dotted 1px black;*/
+    /*overflow:hidden; /*overflow:scroll
+}*/
+/*
+.padre{
+    position: fixed; /*position: relative;
+    top:40px;
+    left:200px;
+    border: dotted 5px black;
+    padding:5px;
+    font-size: 30px;
+    width: 200px;
+    height: 150px;
+}
+
+.hijo{
+    position:absolute;
+    background-color: blue;
+    left:500px;
+    width: 200px;
+    height: 200px;
+}*/
+/*.encabezadoAlina{
+    display:inline; /*display:inline-block;
+} */
+/***font***/
+
+
+/* CSS GRIDS */
+.grid-container{
+    margin: 20px;
+    display:grid;
+    grid-template-columns:200px 200px ;/*2 columnas de 200px*/
+   /* grid-template-columns: 200px auto 200px;*/
+    /*grid-template-rows: 200px 200px 200px 200px;*/
+    grid-template-rows: 250px 250px ;
+    /*grid-template-columns: repeat(12,1fr); /*repite 12 veces una fraccion*/
+    /*justify-items: start; /*organiza los elementos todos juntos, los tira a la izquierda por el start*/
+                        /*valores de justify items: strech |end | start |center*/
+    /*align-items: start; /*lo tira arriba*/
+   /* align-items:end ; /*end: lo tira abajo al texto , start: tira para arriba el texto*/
+    column-gap: 10px; /*genera un espacio entre columnas*/
+    justify-content: space-around;
+    align-content: start; /*a diferencia del align-items,èste me mueve todos los elemetos juntos (align es organizar los eleemntos de manera VERTICAL*/
+    height:1000px;
+    row-gap:15px;
+
+}
+
+.grid-container div{
+    border: solid 1px rgb(178, 230, 204);
+    background-color: #edf6f9;
+    
+}
+.hijo{
+    align-self: center;
+}
+
+#grilla{
+    display:grid;
+    margin-bottom: 20px;
+    grid-template-columns: 20% auto 15%;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas:"nav    header    header"
+                        "nav    main      aside"
+                        "nav    main    aside";
+}
+.nav{
+    background-color: aquamarine;
+    grid-area: nav;
+}
+.header-1{
+    background-color: red;
+    grid-area: header;
+}
+
+.aside-1{
+    background-color: #94f1d2;
+    grid-area:aside;
+}
+
+.main-1{
+    background-color: coral;
+    color:greenyellow;
+    grid-area: main;
+}
