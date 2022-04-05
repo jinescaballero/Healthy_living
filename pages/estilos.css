@@ -1,557 +1,449 @@
-.bordesredondeados{
-    border: solid px black;
-    border-radius: 20px;
-}
-
 @font-face{
-        font-family :"Poppins";
-        src: url('../assets/font/Poppins/Poppins-ExtraLightItalic.ttf');
+    font-family :"Poppins";
+    src: url('../assets/font/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: "StyleScript";
+    src: url('../assets/font/StyleScript-Regular.ttf');
+}
+@font-face {
+    font-family: "VarelaRound";
+    src: url('../assets/font/VarelaRound-Regular.ttf');
 }
 
-
-body{
-    font-family:"Poppins";
+a{
+    text-decoration: none;
+    color: lightskyblue;
 }
-.caja-destacada{
-    padding:5px 5px 5px 1px;
-    height: 70px;
-    color: rgb(203, 147, 255);
-    font-size: 50px;
-    background: #e2fdf4;
-    margin-bottom:30px;
-    margin-top:50px;
-    font-weight: bold;
-    line-height:60px !important;
-    text-align: center;
-    border: 2px solid #b6f8d0;
-    border-radius: 6px;
-     /* border: 2px solid rgb(171, 236, 171);*/
-}
-
-.caja-body{
-    padding:5px 922px 748px 5px;
-    background: #e2fdf4;
-    /*margin-bottom:20px;*/
-    /*margin-top:20px;*/
-    font-weight: bold;
-    line-height:35px !important;
-    text-align: center;
-    border: 2px solid #b6f8d0;
-    border-radius: 6px;
-     /* border: 2px solid rgb(171, 236, 171);*/
-}
-
-
-.contenedor {
-    height: 45px;
-    margin: 0px 0px 5px 100px;
-    background: #ffffff;
-    font-size: 20px;
-    position: center ;
-    text-align: center;
-}
-
-
-.foto_left { 
-    /*padding: 5px; */
-    /*margin: 1px;*/
-   /* border: 2px solid rgb(171, 236, 171);*/
-    float: left; 
-    width: 100px;
-
-}
-.foto_right { 
-   /* padding: 5px; */
-   /*margin: 1px ;*/
-   /* border: 2px solid rgb(171, 236, 171);*/
-    float: right; 
-    width: 100px;
-}
-
-
-
-/*prueba titulo-encabezado*/
-
-.caja-destacada1{
-    padding:5px 5px 5px 1px;
-    height: 70px;
-    color: rgb(203, 147, 255);
-    font-size: 50px;
-    background: #e2fdf4;
-    margin-bottom:30px;
-    margin-top:50px;
-    font-weight: bold;
-    line-height:60px !important;
-    text-align: center;
-    border: 2px solid #b6f8d0;
-    border-radius: 6px;
-}
-
-
-.img_trans{
-    filter:opacity(.5);
-    width:1300px;
-}
-
-/*BEM*/
-/*Bloque 1*/
-.tarjeta{
-    /*max-width: 96%;*/
-    /*background-color: beige;*/
-    background-color:#edf6f9;
-    /*padding: 20px 20px 20px 20px;*/
-    height:330px;
-    width:60%;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin : 0 auto;
-    /*text-align: center;*/
-    position: relative;
-    border-radius: 20px;
-    /*border: solid 1px black;*/
-    /*display: block ;*/
-    
-}
-.tarjeta__imagen{
-    /*margin-top: 10px;
-    margin-bottom:10px;*/
-    padding: 5px;
-    left: 30px;
-    width:200px;
-    height: 270px;
-    text-align: center;
-   /* border-radius: 20px;*/
-   /* background-color:#e2fdf4 ;*/
-    display: inline-block ;
-    position: absolute;
-    /*border: solid 1px black;*/
-    
-}
-
-.tarjeta__imagen img{
-/*    margin-top: 20px;
-    margin-bottom:10px;
-    padding: 5px;
-    left: 20px;
-    width:160px;*/
-    height: 250px;
-    text-align: right;
- /*  /* border-radius: 20px;
-   /* background-color:beige;
-  /*  position: absolute;
-    display: inline-block ;*/
-     
-}
-
-.tarjeta__titulo{
-    font-family: Poppins;
-    font-size: 40px;
-    height: 50px;
-    margin-bottom: 20px;
-    text-align: center;
-    display: block;
-   /*border: solid 1px black;*/
-}
-.tarjeta__enlace{
-    color: black;
-
-}
-.tarjeta__parrafo{
-    font-size: 25px;
-    /*left: 2400px;*/
-    width: 1300px;
-    height: 300px;
-   /* line-height: 25px;*/
-    /*padding: 5px;*/
-    /*padding-left:20px;*/
-    /*border: solid 1px black;*/
-    margin-bottom: 20px;
-    /*margin-left: 30px;*/
-    right: 20px;
-   /* display: inline-block;*/
-   /* position: right ;*/
-     position: absolute;
-   
-}
-
-/*
-
-.grilla{
-    padding:5px 5px 5px 1px;
-    height: 60px;
-    font-size: 20px;
-    background: #e2fdf4;
-    margin-bottom:30px;
-    /*margin-top:0px;*/
-    /*font-weight: bold;*/
-    /*line-height:60px !important;
-    text-align: center;
-    border: 2px solid #b6f8d0;
-    border-radius: 20px;
-    position: relative;
-   
-}*/
-
-.grilla1{
-    /*max-width: 96%;*/
-    /*background-color: beige;*/
-    background-color:#edf6f9;
-    /*padding: 20px 20px 20px 20px;*/
-    /*height:330px;*/
-    margin : 0 auto;
-    /*text-align: center;*/
-    position: relative;
-    /*border: solid 1px black;*/
-    /*display: block ;*/
-    text-align:"center";
-    background-color: "#FFFFFF";
-   
-    
-}
-.grilla1__imagen{
-    /*margin-top: 10px;
-    margin-bottom:10px;*/
-    width:200px;
-    height: 270px;
-    text-align: center;
-   /* border-radius: 20px;*/
-   /* background-color:#e2fdf4 ;*/
-    display: block ;
-    position: relative;
-   /* margin : 0 auto;*/
-    /*border: solid 1px black;*/
-    
-}
-/*
-.tarjeta__parrafo p{
-    font-size: 25px;
-    left: 400px;
-    width: 1300px;
-    line-height: 40px;
-    padding: 5px;
-    margin-bottom: 20px;
-    margin-left: 60px;
-    display: inline-block;
-    position: right ;
-    font-family:"Poppins";
-    display: inline-block;
-    border: solid 1px black;
-}*/
-
-
-.footer1{
-    padding-top: 10px;
-    height: 40px;
-    background-color: #e2fdf4;
-    border-radius: 5px;
-    margin-top: 20px;
-    text-align: center;
-    border: 2px solid #b6f8d0;
-    
-}
-.footer1__img{
-    padding: 30px;
-    left: 10px;
-    font-size: 20px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    background-color:#fff ;
-    display: inline-block;
-    font-family:"Poppins";
-}
-
-
-.flex-container{
-    width:1000px;
-    height: 1000px;
-    background-color: beige;
-    margin:auto;
-    display:flex; /*transformo fila en columna*/
-    flex-direction: row; /*se apilan las cajas de arriba a abajo*/ /*  flex-direction: row; este es el predeterminado*/
-   /* flex-direction: column;*/
-    flex-wrap: wrap; /*si meto 100 divs voy a tener que usar scrool, porque no se corta*/
-    /*justify-content: center;*/
-    justify-content: flex-start;
-    /*justify-content: space-between;*/
-    /*justify-content: space-around;*/
-    /*align-items:center ;/*alinea los elementos en el eje secundario*/
-    align-items:stretch ;
-    align-content:space-between;
-}
-.flex-item{
-    background-color:rgb(190, 253, 232) ;
-    width: 250px;
-    height: 250px;
-    background-color:bisque ;
-    margin:30px;
-    align-self: center;
-
-}
-.flex-item2{
-    background-color:rgb(190, 253, 232) ;
-    width: 250px;
-    height: 250px;
-    background-color:#555 ;
-    margin:30px;
-
-}
-.flex-item:neh-child(odd){
-    background-color: black;
-    align-self: center;
-}
-
-.flex-item2{
-    width: 250px;
-    height: 250px;
-    background-color: azure;
-    order: 4px;
-}
-
-.main-header {
-    background-image:url('../assets/background/saludable.png');
-    background-repeat: no-repeat;
-    background-position-x:center;
-    background-position-y:center;
-    width: 100%;
-    height: 100%;
-}
-
-h1.logo {
-    text-indent: -9999px;
-    height:115px;
-    margin-top: 10%;
-}
-
-.block__element {
-    background-color: rgb(158, 162, 167);
-}
-
-.container{ /*esto va a aplicar a las imagenes que estan adentro de caja*/
-    margin-top: 30px;
-    background-color: rgb(141, 39, 39);
-    width: 100%;
-    display: flex;
-    height: 700px;
-    flex-direction: row;
-    justify-content: flex-end; /*alinea en el eje principal*/
-   /* align-items: flex-start;*/
-}
-
-.caja_img{
-    height: 250px;
-}
-.caja{
-    margin: 15px;
-}
-.caja p{  /*formato del parrafo de la clase caja*/
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600 ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/*resetea todos los estilos de la pagina html*
-*{
-    margin:0;
-    padding:0;
-}
-#encabezados{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:50px;
-    font-weight: lighter;
-    text-align: center;
-    color: rgb(255, 0, 0);
-}
-
-/***interlineado***/
-ol{
-    list-style-type:none;
-}
-/***interlineado***/
 p{
+    font-family:"VarelaRound";
+    height: vw;
+}
+h3{
+font-family:"VarelaRound";
+}
+h2{
+    font-family:"VarelaRound";
+    }
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*-------------------------------------------Body Header-----------------------------------------------------*/
+
+.header {  
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 50px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "LogoL Titulo LogoR"
+    ". Menu .";
+}
+.Titulo {
+    grid-area: Titulo;
+    display:flex;
+    background-color: beige; 
+    justify-content: space-around;
+    padding:10px 1px 1px 1px;
+    font-family: StyleScript;
+    height: 80px;
+    color: rgb(203, 147, 255);
+    font-size: 80px;
+    background: #e2fdf4;
+    margin-bottom:10px;
+    margin-top:20px;
+    line-height:60px !important;
+    text-align: center;
+    border: 2px solid #b6f8d0;
+    border-radius: 15px;
+}
+.LogoL {
+    display:flex;
+    grid-area: LogoL;
+    justify-content: space-around;
+    height: 100px;
+}
+.LogoR {
+    display:flex;
+    grid-area: LogoR;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.LogoR i{
+    display: none;
+}
+.Menu { 
+    display:flex;
+    grid-area: Menu;
+    justify-content: space-around; 
+    color:lightgrey;
+    justify-items: center;
+}
+.Menu .texto{
+    text-align: center;
+    width:600px;
+    font-family:"VarelaRound";
+    font-size: 20px;
+    
+}
+
+
+/*-------------------------------------------Body Main ----------------------------------------------------*/
+.body {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1400px 130px 230px;
+    /*grid-template-rows: 76% 12% 12%;*/
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "intro intro intro intro intro intro intro intro intro"
+    "Beneficios Beneficios Beneficios Beneficios Beneficios Beneficios Beneficios Beneficios Beneficios"
+    "Tips Tips Tips Tips Tips Tips Tips Tips Tips";
+}
+
+.body .intro { 
+    grid-area: intro; 
+    background-color: lightgrey; 
+    padding-left:2%;
+    /*height:90vh;*/
+    /*overflow: hidden;*/
+    background-image: url('/assets/background/background_healthy.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.intro .contenido{
+    /*grid-column: 2/3;*/
+    margin-top: 100px;
+    width: 500px;
+    
+}
+.intro .contenido h3{
+    font-weight:550;
+    font-size: 1.5vw;
+    color:rgb(203, 147, 255);
+    font-family:"VarelaRound";
+}
+.intro .contenido p{
+    font-weight: 200;
+    color:rgb(161, 159, 159);
+    margin-top: 30px;
+    font-size: 1.2vw;
+    font-style: italic;
+    line-height: 1.5;
+    
+}
+
+/*------------------------------------------fin body intro ---------------------------------*/
+
+
+
+.Beneficios { 
+    grid-area: Beneficios; 
+    display:flex;
+    justify-content: space-around;    
+    align-items: center;
+    border-color: #b6f8d0;
+    overflow: hidden;
+    background-color: #fff;
+
+    
+}
+.Beneficios img{ 
+    height: 200px; 
+}
+
+
+.Tips { 
+    grid-area: Tips;
+    display: inline-block;
+    border: solid 1px #b6f8d0;
+    padding:1%;
+    margin-top: 100px;
+    justify-items: center;
+    border-radius: 15px;
+}
+.Tips .titulo{
+    display: block;
+    width: 400px;
+    font-size:30px;
+    font-weight:300;
+    color:rgb(203, 147, 255);
+    font-family:"VarelaRound";
+}
+
+.Tips p{
+    font-weight: 200;
+    color:rgb(161, 159, 159);
+    margin-top: 2px;
+    font-size: 1.2vw;
+    line-height: 1,5;
+}
+
+
+.body_clases {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 300px;
+    gap: 0px 0px;
+    margin: 5px;
+    padding:5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "Video1 Video2 Video3"
+    "texto1 texto2 texto3";
+}
+
+.Video1 { 
+    grid-area: Video1; 
+
+    }
+.Video1 iframe{
+    border-radius: 15px;
+}
+
+.texto1 { 
+    grid-area: texto1;
+    padding: 5px; 
+    margin-top: 15px;
+    width: 96%;
+    font-size: 2vh;
+    border-color: #b6f8d0;
+    border-radius: 15px;
+    background-color:#edf6f9;
+}
+
+.Video2 { 
+    grid-area: Video2; 
+
+}
+.Video2 iframe{
+    border-radius: 15px;
+}
+
+.texto2 { 
+    grid-area: texto2;
+    padding: 5px; 
+    margin-top: 15px;
+    width: 96%;
+    font-size: 2vh;
+    border-color: #b6f8d0;
+    border-radius: 15px;
+    background-color:#edf6f9;
+}
+
+.Video3 { 
+    grid-area: Video3;
+
+}
+.Video3 iframe{
+    border-radius: 15px;
+}
+
+.texto3 {
+    grid-area: texto3;
+    padding: 5px; 
+    margin-top: 15px;
+    width: 96%;
+    font-size: 2vh;
+    border-color: #b6f8d0;
+    border-radius: 15px;
+    background-color:#edf6f9;
+}
+
+
+/*-------------------------------------------Footer ----------------------------------------------------*/
+
+.footer {  
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "Footer_icons"
+    "Footer_copyright";
+}
+
+.footer_section {
+    grid-area: Footer_icons;
+    display:flex;
+    justify-content: space-around; 
+    align-items:center;
+    justify-content: center;
+    background-color: #e2fdf4;
+    border-radius: 15px;
+
+}
+.footer_section .footer_icons{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    text-align:center;
+    padding: 5px;
+}
+
+.hover:hover{
+    filter:opacity(.5)
+}
+.Footer_copyright {
+    grid-area: Footer_copyright; 
+    display:flex;
+    background-color: rgb(238, 189, 196); 
+    justify-content: space-around;
+}
+
+/*-------------------------------------------responsive 1424px to 1735px -------------------------------------*/
+
+@media (min-width:1424px) and (max-width:1735px){
+.body {  
+    grid-template-rows: 900px 150px 210px;
+}
+.body_clases {  
+    grid-template-rows: 350px 400px;
+}
+}
+
+/*-------------------------------------------responsive 1024px to 1423px -------------------------------------*/
+
+@media (min-width:1024px) and (max-width:1423px){
+.body {  
+    grid-template-rows: 800px 120px 250px;
+}
+
+.Tips p{
+    font-size: 1.6vw;
+    /* color:yellow;*/
+}
+
+.body_clases {  
+    grid-template-rows: 350px 500px;
+}
+}
+
+
+
+/*-------------------------------------------responsive 865px to 1023px -------------------------------------*/
+@media (min-width:865px) and (max-width:1023px){
+
+.Menu .texto{
+    width:450px;
+    font-size: 16px;
+    
+}
+
+.body {  
+    grid-template-rows: 900px 160px 230px;
+}
+.intro .contenido{
+    margin-top: 120px;
+    width: 228px;
+}
+
+.intro .contenido h3{
+    font-size:20px;
+}
+.intro .contenido p{
+    font-size: 17px;
+    color:lightslategray;
+
+}
+
+.Beneficios img{ 
+    height: 150px; 
+
+}
+
+.Tips .titulo{
+    font-size:18px; 
+}
+
+.Tips p{
+    font-size: 1.6vw;
+    line-height: 1.5;
+    /*color:red;*/
+}
+
+.body_clases {  
+    grid-template-rows: 350px 600px;
+}
+
+.footer_section {
+    margin-bottom: 5px;
+}
+}
+
+/*-------------------------------------------responsive 601px to 864px -------------------------------------*/
+
+@media (min-width:601px) and (max-width:864px){
+.Titulo {
+    font-size: 11vw;
+}
+
+.LogoR img{
+    display:none;
+}
+.LogoR i{
+    display:flex;
+
+}
+.Menu .texto{
+    width:80%;
+    font-size: 2vw;
+    
+}
+.body {  
+    grid-template-rows: 600px 90px 200px;
+}
+.body .intro { 
+    background-size: center;
+    background-position: center;
+}
+
+.intro .contenido{
+    margin-top: 40px;
+    width: 155px;
+    height: 340px;
+    padding: 7px;
+}
+.contenido:hover {
+    border: 1px solid #b6f8d0;;
+    padding: 5px;
+}
+.intro .contenido h3{
+    font-size:16px;
+}
+.intro .contenido p{
+    font-size: 13px;
+    color:lightslategray;
+    
+
+}
+.Beneficios img{ 
+    height: 100px;   
+}
+.Tips .titulo{
+    font-size:15px; 
+}
+
+.Tips p{
+    font-size: 1.4vw;
+    /* color:blue;*/
     line-height: 1.5;
 }
 
-p{ font-family: 'Roboto', sans-serif;
-
-}
-
-/***rectangulo***/
-.rectangulo {
-    width: 500px; 
-    height: 100px; 
-    background: #94f1d2;
+.body_clases{
+    grid-template-rows: 300px 700px;
+    background-color: antiquewhite;
 }
 
 
-/***tachado por ejemplo***/
-a{
-    text-decoration: none;
-}
 
- /***background
-body{
-    background-image: url('../assets/background/saludable.jpg');
-    background-repeat: repeat;
-}
-***/
-
-/*
-.contenedor{
-    position: relative ;
-    display: inline-block;
-    text-align: center;
-}*/
-.texto-encima{
-    position:fixed ;
-    top: 8px;
-    left: 8px;
-}
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.rectangulo-aqua{
-    background-color: aquamarine;
-}
-
-#principal{
-    padding:15px;
-    background-image:url('../assets/background/backgroundColor.jpg');
-
-    background-size: cover;
-
-
-}
-/*metodologia bem*/
-
-
-/*Bloque2*/
-.boton{
-    display:inline-block;
-    padding:12px 25px;/* es izquierda y derecha*/
-    background-color: #000;
-    border-radius: 10px;
-    text-decoration:none;
-}
-.boton__texto{
-    color: #ffffff;
-    font-size:18px;
-}
-
-/*Modificador BEM*/
-.boton--alternativo{ /*el nombre que nosotrs queramos siempre y cuando cumpla con la sintaxis del bloque*/
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-/*cajas*/
-/*.caja1{
-    background-color: aqua;
-    width: 250px;
-    height: 250px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    padding:20px 15px 30px 40px; /*20 arriba , 15 derecha..., 140 a la izquierda es como las vueltas del reloj
-}*/
-
-/*.caja1{
-    padding:5px;
-    font-size: 30px;
-    width: 200px;
-    height: 150px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    border: solid 1px black; /*border: dotted 1px black;*/
-    /*overflow:hidden; /*overflow:scroll
-}*/
-/*
-.padre{
-    position: fixed; /*position: relative;
-    top:40px;
-    left:200px;
-    border: dotted 5px black;
-    padding:5px;
-    font-size: 30px;
-    width: 200px;
-    height: 150px;
-}
-
-.hijo{
-    position:absolute;
-    background-color: blue;
-    left:500px;
-    width: 200px;
-    height: 200px;
-}*/
-/*.encabezadoAlina{
-    display:inline; /*display:inline-block;
-} */
-/***font***/
-
-
-/* CSS GRIDS */
-.grid-container{
-    margin: 20px;
-    display:grid;
-    grid-template-columns:200px 200px ;/*2 columnas de 200px*/
-   /* grid-template-columns: 200px auto 200px;*/
-    /*grid-template-rows: 200px 200px 200px 200px;*/
-    grid-template-rows: 250px 250px ;
-    /*grid-template-columns: repeat(12,1fr); /*repite 12 veces una fraccion*/
-    /*justify-items: start; /*organiza los elementos todos juntos, los tira a la izquierda por el start*/
-                        /*valores de justify items: strech |end | start |center*/
-    /*align-items: start; /*lo tira arriba*/
-   /* align-items:end ; /*end: lo tira abajo al texto , start: tira para arriba el texto*/
-    column-gap: 10px; /*genera un espacio entre columnas*/
-    justify-content: space-around;
-    align-content: start; /*a diferencia del align-items,èste me mueve todos los elemetos juntos (align es organizar los eleemntos de manera VERTICAL*/
-    height:1000px;
-    row-gap:15px;
-
-}
-
-.grid-container div{
-    border: solid 1px rgb(178, 230, 204);
-    background-color: #edf6f9;
-    
-}
-.hijo{
-    align-self: center;
-}
-
-#grilla{
-    display:grid;
-    margin-bottom: 20px;
-    grid-template-columns: 20% auto 15%;
-    grid-template-rows: 100px 100px 100px;
-    grid-template-areas:"nav    header    header"
-                        "nav    main      aside"
-                        "nav    main    aside";
-}
-.nav{
-    background-color: aquamarine;
-    grid-area: nav;
-}
-.header-1{
-    background-color: red;
-    grid-area: header;
-}
-
-.aside-1{
-    background-color: #94f1d2;
-    grid-area:aside;
-}
-
-.main-1{
-    background-color: coral;
-    color:greenyellow;
-    grid-area: main;
 }
