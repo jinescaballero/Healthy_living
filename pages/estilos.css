@@ -119,9 +119,8 @@ h2{
 }
 
 .intro .contenido{
-    /*grid-column: 2/3;*/
     margin-top: 100px;
-    width: 450px;
+    width: 380px;
     
 }
 .intro .contenido h3{
@@ -156,7 +155,7 @@ h2{
     
 }
 .Beneficios img{ 
-    height: 230px; 
+    height: 250px; 
 }
 
 
