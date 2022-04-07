@@ -113,7 +113,7 @@ h2{
     padding-left:2%;
     /*height:90vh;*/
     /*overflow: hidden;*/
-    background-image: url('/assets/background/background_healthy.jpg');
+    background-image: url('../assets/background/background_healthy.jpg');
     background-size: cover;
     background-position: center;
 }
