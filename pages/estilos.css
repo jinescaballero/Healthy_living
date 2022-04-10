@@ -400,13 +400,12 @@ h2{
     display:none;
 }
 .LogoR i{
+    margin: 40px;
     display:flex;
 
 }
 .Menu .texto{
-    width:80%;
-    font-size: 2vw;
-    
+    display:none;
 }
 .body {  
     grid-template-rows: 600px 90px 200px;
@@ -481,19 +480,18 @@ font-size: 21px;
     .LogoL {
         height: 60px;
     }
-    .LogoR {
-        display: none;
+    .LogoR img{
+        display:none;
     }
-    
     .LogoR i{
-        display:inline ;
+        margin-top: 35px;
+        display:flex;
+        margin-right: 93px;
+    
     }
 
     .Menu .texto{
-        text-align: center;
-        width:300px;
-        font-family:"VarelaRound";
-        font-size: 10px;
+        display: none;
         
     }
 
