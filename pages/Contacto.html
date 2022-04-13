@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Healthy Living - Contacto </title>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="shortcut icon" href="../assets/Logo/logo_apple.png">
+    <!-- <script src="https://kit.fontawesome.com/f28dfb3b21.js" crossorigin="anonymous"></script> -->
+</head>
+<!--------------------------------------------Body header----------------------------------------------------->
+<main>
+    <body>
+        <header>
+            <section class="container-fluid ">
+                <div class="row">
+                    <div class="item col-sm-1 ">
+                        <div class="logo">
+                            <img src="../assets/Logo/apple.png "  alt="LogoL">
+                        </div>
+                    </div>
+                    <div class="item col-md-10 ">
+                        <div > <h1>Healthy Living </h1> </div>
+                    </div>
+                    <div class="item col-sm-1 "> 
+                        <div class="logo" >
+                            <img src="../assets/Logo/apple.png "  alt="LogoR">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-center">
+                <div class="container-fluid">
+                    <a class="logo_menu" href="#"><img src="../assets/Logo/nav_logo.png "  alt="Logo_menu"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./SobreNosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Clases.html">Clases </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"  href="./Recetas.html">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </div>
+                </div>
+            </nav> <br>
+        </header>
+<!---------------------- fin del header ------------------------------>
+
+        <form action="procesar.php" method=""> <!--si no pones el metodo es get-->
+            <label for="Nombre: "> Nombre: </label>
+            <input type="text" name="nombre" placeholder="ingresa tu nombre">
+            <p>
+                <label for="Apellido: "> Apellido: </label>
+                <input type="text" name="Apellido" placeholder="ingresa tu Apellido">
+            </p>
+            <p>
+                <label for="Edad: "> Edad: </label>
+                <input type="text" name="Edad" placeholder="ingresa tu Edad">
+            </p>
+            <p>
+                <label for="telefono"> Telefono: </label>
+                <input type="tel" name="telefono">
+            </p>
+            <p>
+                <label for="email">Email: </label>
+                <input type="email" name="email"> 
+            </p>
+            <p>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password">
+            </p>
+        <!--Checkbox-->
+        <h4>Alguna preferencia de Alimentacion?</h4>
+            <label for="coleccion">Vegano</label>
+            <input type="checkbox" name="Vegano" value="Vegano">
+
+            <label for="coleccion">Vegetariano</label>
+            <input type="checkbox" name="Vegetariano" value="Vegetariano">
+
+            <label for="coleccion">Gluten Free</label>
+            <input type="checkbox" name="Gluten Free" value="Gluten Free">
+        <!--radio-->
+        <h4>Estado Civil</h4>
+            <label for="estadocivil">Soltera/o</label>
+            <input type="radio" name="estadocivil" value="soltero/a">
+
+            <label for="estadocivil">Casada/o</label>
+            <input type="radio" name="estadocivil" value="casado/a">
+
+            <label for="estadocivil">Viuda/o</label>
+            <input type="radio" name="estadocivil" value="viuda/o">
+        
+        <h4>Dejame tu comentario</h4>
+            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+        <!--Menu Desplegable-->
+        <h4>Como nos conociste?</h4>
+            <select name="tecnica" id="">
+                <option value="Instagram">Instagram</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Diarios">Diarios</option>
+                <option value="Amigo/a">Amigo/a</option>
+                <option value="Otro">Otro</option>
+            </select>
+        <!--Botones-->
+            <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar Formulario">
+            <input type="button" value="Sin Acciones">
+        </p>
+        </form>
+
+    <script src="../libs/bootstrap/js/bootstrap.min.js"></script>"
+</body>
+<!-------------------------------------------Footer ---------------------------------------------------->
+    <footer>
+        <div class="footer">
+            <div class="footer_section">
+                <div class="footer_icons">
+                    <a href="https://www.instagram.com/healthy.foodyss/" target="_blank"> <img class="hover" src="../assets/images/instagram_icon.png" alt="" width="30"> </a> 
+                    <a href="https://twitter.com/fooddotcom?lang=es" target="_blank"> <img class="hover" src="../assets/images/twitter_icon.png" alt="" width="30"></a>
+                    <a href="https://m.facebook.com/Healthy-food-2031519270508827/" target="_blank"> <img class="hover" src="../assets/images/facebook_icon.png" alt="" width="30"></a>    
+                </div>
+            </div>
+            <div class="copy_footer" >Copyright (c) Healthy Living. Todos los derechos reservados</div>
+        </div> 
+    </footer>
+</main>
+</html>
