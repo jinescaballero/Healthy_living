@@ -62,71 +62,74 @@
         </header>
 <!---------------------- fin del header ------------------------------>
 
-        <form action="procesar.php" method=""> <!--si no pones el metodo es get-->
-            <label for="Nombre: "> Nombre: </label>
-            <input type="text" name="nombre" placeholder="ingresa tu nombre">
-            <p>
-                <label for="Apellido: "> Apellido: </label>
-                <input type="text" name="Apellido" placeholder="ingresa tu Apellido">
-            </p>
-            <p>
-                <label for="Edad: "> Edad: </label>
-                <input type="text" name="Edad" placeholder="ingresa tu Edad">
-            </p>
-            <p>
-                <label for="telefono"> Telefono: </label>
-                <input type="tel" name="telefono">
-            </p>
-            <p>
-                <label for="email">Email: </label>
-                <input type="email" name="email"> 
-            </p>
-            <p>
-                <label for="contraseña">Contraseña:</label>
-                <input type="password">
-            </p>
-        <!--Checkbox-->
-        <h4>Alguna preferencia de Alimentacion?</h4>
-            <label for="coleccion">Vegano</label>
-            <input type="checkbox" name="Vegano" value="Vegano">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center header">Contacto</legend>
 
-            <label for="coleccion">Vegetariano</label>
-            <input type="checkbox" name="Vegetariano" value="Vegetariano">
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="fname" name="name" type="text" placeholder="Nombre " class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="lname" name="name" type="text" placeholder="Apellido " class="form-control">
+                                    </div>
+                                </div>
 
-            <label for="coleccion">Gluten Free</label>
-            <input type="checkbox" name="Gluten Free" value="Gluten Free">
-        <!--radio-->
-        <h4>Estado Civil</h4>
-            <label for="estadocivil">Soltera/o</label>
-            <input type="radio" name="estadocivil" value="soltero/a">
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                    </div>
+                                </div>
 
-            <label for="estadocivil">Casada/o</label>
-            <input type="radio" name="estadocivil" value="casado/a">
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Ingrese su mensaje aqui. Lo contactaremos en menos de 2 días hábiles." rows="7"></textarea>
+                                    </div>
+                                </div> <br>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"></span>
+                                    <div class="col-md-8">
+                                        <h6>Alguna preferencia de Alimentacion?</h6>
+                                        <label for="coleccion">Vegano</label>
+                                        <input type="checkbox" name="Vegano" value="Vegano">
 
-            <label for="estadocivil">Viuda/o</label>
-            <input type="radio" name="estadocivil" value="viuda/o">
-        
-        <h4>Dejame tu comentario</h4>
-            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-        <!--Menu Desplegable-->
-        <h4>Como nos conociste?</h4>
-            <select name="tecnica" id="">
-                <option value="Instagram">Instagram</option>
-                <option value="Facebook">Facebook</option>
-                <option value="Diarios">Diarios</option>
-                <option value="Amigo/a">Amigo/a</option>
-                <option value="Otro">Otro</option>
-            </select>
-        <!--Botones-->
-            <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar Formulario">
-            <input type="button" value="Sin Acciones">
-        </p>
-        </form>
+                                        <label for="coleccion">Vegetariano</label>
+                                        <input type="checkbox" name="Vegetariano" value="Vegetariano">
+
+                                        <label for="coleccion">Gluten Free</label>
+                                        <input type="checkbox" name="Gluten Free" value="Gluten Free">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <script src="../libs/bootstrap/js/bootstrap.min.js"></script>"
-</body>
+    </body>
 <!-------------------------------------------Footer ---------------------------------------------------->
     <footer>
         <div class="footer">
