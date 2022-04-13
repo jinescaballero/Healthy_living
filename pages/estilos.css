@@ -17,10 +17,11 @@ a{
 }
 p{
     font-family:"VarelaRound";
-    height: vw;
+    height: 2vw;
 }
 h3{
 font-family:"VarelaRound";
+
 }
 h2{
     font-family:"VarelaRound";
@@ -31,239 +32,141 @@ h2{
     padding:0;
     box-sizing: border-box;
 }
-/*-------------------------------------------Body Header-----------------------------------------------------*/
 
-.header {  
-    display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-    grid-template-rows: 1fr 50px;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "LogoL Titulo LogoR"
-    ". Menu .";
+
+ol{
+    line-height: 1.5;
+    font-size: 1.1vw;
+    color: black;
 }
-.Titulo {
-    grid-area: Titulo;
-    display:flex;
-    background-color: beige; 
-    justify-content: space-around;
-    padding:10px 1px 1px 1px;
-    font-family: StyleScript;
-    height: 80px;
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+ol li::marker {
     color: rgb(203, 147, 255);
-    font-size: 80px;
+    line-height: 1.5;
+}
+/*-------------------------------------------Body Header-----------------------------------------------------*/
+h1 {
+    font-family: StyleScript;
+    padding-top:1%;
+    font-size: 400%;
+    color: rgb(203, 147, 255);
     background: #e2fdf4;
-    margin-bottom:10px;
-    margin-top:20px;
-    line-height:60px !important;
+    margin-bottom:1.5%;
+    margin-top:2%;
+    line-height:90% !important;
     text-align: center;
     border: 2px solid #b6f8d0;
     border-radius: 15px;
 }
-.LogoL {
-    display:flex;
-    grid-area: LogoL;
-    justify-content: space-around;
-    height: 100px;
-}
-.LogoR {
-    display:flex;
-    grid-area: LogoR;
-    justify-content: space-around;
-    height: 100px;
-}
 
-.LogoR i{
-    display: none;
+.logo_menu img{
+    display:none;
 }
-.Menu { 
-    display:flex;
-    grid-area: Menu;
-    justify-content: space-around; 
-    color:lightgrey;
-    justify-items: center;
-}
-.Menu .texto{
-    text-align: center;
-    width:600px;
-    font-family:"VarelaRound";
-    font-size: 20px;
-    
-}
-
-
 /*-------------------------------------------Body Main ----------------------------------------------------*/
-.body {  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1400px 130px 230px;
-    /*grid-template-rows: 76% 12% 12%;*/
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "intro intro intro intro intro intro intro intro intro"
-    "Beneficios Beneficios Beneficios Beneficios Beneficios Beneficios Beneficios Beneficios Beneficios"
-    "Tips Tips Tips Tips Tips Tips Tips Tips Tips";
+
+.body_index{
+    display: flex;
+    border-radius: 15px;
+    border: solid 2px #e2fdf4;
+    text-align: center;
+    width: 99%;
 }
 
-.body .intro { 
-    grid-area: intro; 
-    background-color: lightgrey; 
-    padding-left:2%;
-    /*height:90vh;*/
-    /*overflow: hidden;*/
-    background-image: url('../assets/background/background_healthy.jpg');
-    background-size: cover;
-    background-position: center;
+h5{
+    line-height: 2;
+    text-align: center;
 }
+.col-sm-4 {
+    margin-top: 30%;
 
-.intro .contenido{
-    margin-top: 100px;
-    width: 380px;
-    
 }
-.intro .contenido h3{
-    font-weight:550;
-    font-size: 1.6vw;
-    color:rgb(203, 147, 255);
-    font-family:"VarelaRound";
+.body_index img{
+    border-radius:20px;
+
 }
-.intro .contenido p{
-    font-weight: 200;
-    color:rgb(161, 159, 159);
-    margin-top: 30px;
-    font-size: 1.3vw;
-    font-style: italic;
-    line-height: 1.5;
-    
-}
-
-/*------------------------------------------fin body intro ---------------------------------*/
-
-
-
-.Beneficios { 
-    grid-area: Beneficios; 
-    display:flex;
-    justify-content: space-around;    
+.item {
     align-items: center;
-    border-color: #b6f8d0;
-    overflow: hidden;
-    background-color: #fff;
-    height: 250px; 
+    text-align: center;
+    /*margin-top:5%;*/
+}
+.item img{
+    width: 99%;
+    margin-top:10%;
 }
 
-    
 
-.Beneficios img{ 
-    height: 230px; 
-}
 
 
 .Tips { 
     grid-area: Tips;
     display: inline-block;
-    border: solid 1px #b6f8d0;
     padding:1%;
-    margin-top: 100px;
     justify-items: center;
     border-radius: 15px;
 }
-.Tips .titulo{
-    display: block;
-    width: 400px;
-    font-size:30px;
-    font-weight:300;
-    color:rgb(203, 147, 255);
-    font-family:"VarelaRound";
-}
 
-.Tips p{
-    font-weight: 200;
-    color:rgb(161, 159, 159);
-    margin-top: 2px;
-    font-size: 1.2vw;
+.Tips h5{
+    font-weight: 360;
+    color:rgb(141, 138, 138);
+    margin-top: 10px;
+    margin-bottom: 10px;
     line-height: 1,5;
 }
 
-
-.body_clases {  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 400px 300px;
-    gap: 0px 0px;
-    margin: 5px;
-    padding:5px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "Video1 Video2 Video3"
-    "texto1 texto2 texto3";
+.copy_footer {
+    text-align: center;
 }
+/*--------------------------Clases----------------------*/
 
-.Video1 { 
-    grid-area: Video1; 
-
-    }
-.Video1 iframe{
+.item iframe {
     border-radius: 15px;
 }
 
-.texto1 { 
-    grid-area: texto1;
-    padding: 5px; 
-    margin-top: 15px;
-    width: 96%;
-    font-size: 2vh;
-    border-color: #b6f8d0;
+/* --------------------------------recetas----------------------------------------*/
+
+.imagen_receta{
+    border-radius:20px;
+    width: 95%;
+    align-items: center;
+    margin-top:60px;
+    display: flex;
+}
+
+
+.container_body{
+    border: solid 2px #e2fdf4;
     border-radius: 15px;
-    /*background-color:#edf6f9;*/
-    /*background-image: linear-gradient(to top,#edf6f9, rgb(223, 236, 248)) ; */
-    background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+    justify-content: space-around;
+    width:99%;
 
 }
-
-.Video2 { 
-    grid-area: Video2; 
-
+.lista_receta {
+    list-style: none;
+    color: black;
 }
-.Video2 iframe{
-    border-radius: 15px;
+h3{
+    color:rgb(203, 147, 255);
+    margin-top: 10px;
+    text-align: center;
 }
-
-.texto2 { 
-    grid-area: texto2;
-    padding: 5px; 
-    margin-top: 15px;
-    width: 96%;
-    font-size: 2vh;
-    border-color: #b6f8d0;
-    border-radius: 15px;
-    /* background-color:#edf6f9;*/
-    /*background-image: radial-gradient( circle farthest-corner at 14.2% 27.5%,  rgba(104,199,255,1) 0%, rgba(181,126,255,1) 90% );*/
-   /* background-image: linear-gradient(to top,#edf6f9, rgb(223, 236, 248)) ; */
-    /*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147,230,241,1) 0%, rgba(145,192,241,1) 45.5% );*/
-    background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+h5{
+    line-height: 1.5;
 }
 
-.Video3 { 
-    grid-area: Video3;
-
+.lista_receta  li{
+    line-height: 1.5;
 }
-.Video3 iframe{
-    border-radius: 15px;
-}
-
-.texto3 {
-    grid-area: texto3;
-    padding: 5px; 
-    margin-top: 15px;
-    width: 96%;
-    font-size: 2vh;
-    border-color: #b6f8d0;
-    border-radius: 15px;
-    background-image: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
-    /*background-image: linear-gradient(to top,#edf6f9, rgb(223, 236, 248)) ; */
+.lista_receta  li::before {
+    content: "\2022";  
+    color: rgb(203, 147, 255);
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
 }
 
 
@@ -290,7 +193,7 @@ h2{
     background-color: #e2fdf4;
     border-radius: 15px;
 
-}
+}   
 .footer_section .footer_icons{
     display: flex;
     justify-content: space-around;
@@ -302,263 +205,19 @@ h2{
 .hover:hover{
     filter:opacity(.5)
 }
-.Footer_copyright {
-    grid-area: Footer_copyright; 
+
+/*-------------------------------------------responsive 200px to 767px -------------------------------------*/
+@media (min-width:200px) and (max-width:767px){
+h1{
+    font-size: 300%;
+    margin-bottom:4%;
+    }
+    .logo{
+    display:none
+    
+    }
+.logo_menu img{
+    width: 40px;
     display:flex;
-    background-color: rgb(238, 189, 196); 
-    justify-content: space-around;
-}
-
-/*-------------------------------------------responsive 1424px to 1735px -------------------------------------*/
-
-@media (min-width:1424px) and (max-width:1735px){
-.body {  
-    grid-template-rows: 900px 150px 210px;
-}
-.body_clases {  
-    grid-template-rows: 350px 430px;
 }
 }
-
-/*-------------------------------------------responsive 1024px to 1423px -------------------------------------*/
-
-@media (min-width:1024px) and (max-width:1423px){
-.body {  
-    grid-template-rows: 800px 120px 250px;
-}
-
-.Tips p{
-    font-size: 1.6vw;
-    /* color:yellow;*/
-}
-
-.body_clases {  
-    grid-template-rows: 350px 500px;
-}
-}
-
-
-
-/*-------------------------------------------responsive 865px to 1023px -------------------------------------*/
-@media (min-width:865px) and (max-width:1023px){
-
-.Menu .texto{
-    width:450px;
-    font-size: 16px;
-    
-}
-
-.body {  
-    grid-template-rows: 900px 160px 230px;
-}
-.intro .contenido{
-    margin-top: 120px;
-    width: 228px;
-}
-
-.intro .contenido h3{
-    font-size:20px;
-}
-.intro .contenido p{
-    font-size: 17px;
-    color:lightslategray;
-
-}
-
-.Beneficios img{ 
-    height: 150px; 
-
-}
-
-.Tips .titulo{
-    font-size:18px; 
-}
-
-.Tips p{
-    font-size: 1.6vw;
-    line-height: 1.5;
-    /*color:red;*/
-}
-
-.body_clases {  
-    grid-template-rows: 350px 600px;
-}
-
-.footer_section {
-    margin-bottom: 5px;
-}
-}
-
-/*-------------------------------------------responsive 601px to 864px -------------------------------------*/
-
-@media (min-width:601px) and (max-width:864px){
-.Titulo {
-    font-size: 11vw;
-}
-
-.LogoR img{
-    display:none;
-}
-.LogoR i{
-    margin: 40px;
-    display:flex;
-
-}
-.Menu .texto{
-    display:none;
-}
-.body {  
-    grid-template-rows: 600px 90px 200px;
-}
-.body .intro { 
-    background-size: center;
-    background-position: center;
-}
-
-.intro .contenido{
-    margin-top: 40px;
-    width: 155px;
-    height: 340px;
-    padding: 7px;
-}
-.contenido:hover {
-    border: 1px solid #b6f8d0;;
-    padding: 5px;
-}
-.intro .contenido h3{
-    font-size:16px;
-}
-.intro .contenido p{
-    font-size: 13px;
-    color:lightslategray;
-    
-
-}
-.Beneficios img{ 
-    height: 100px;   
-}
-.Tips .titulo{
-    font-size:15px; 
-}
-
-.Tips p{
-    font-size: 1.4vw;
-    /* color:blue;*/
-    line-height: 1.5;
-}
-
-.body_clases{
-    grid-template-rows: 300px 700px;
-    /*  background-color: antiquewhite;*/
-}
-p{
-    font-family:"VarelaRound";
-    font-size: 17px;
-}
-h2{
-font-family:"VarelaRound";
-font-size: 21px;
-}
-}
-
-/*-------------------------------------------responsive 375px to 414px -------------------------------------*/
-
-@media (min-width:375px) and (max-width:414px){
-    .header {  
-        grid-template-columns: 60px 310px 65px;
-        grid-template-rows: 65px 30px;
-        /*background-color: red;*/
-    }
-
-    .Titulo {
-        height: 40px;
-        font-size: 35px;
-        line-height:20px !important;
-        border-radius: 10px;
-    }
-
-    .LogoL {
-        height: 60px;
-    }
-    .LogoR img{
-        display:none;
-    }
-    .LogoR i{
-        margin-top: 35px;
-        display:flex;
-        margin-right: 93px;
-    
-    }
-
-    .Menu .texto{
-        display: none;
-        
-    }
-
-    .intro .contenido{
-        margin-top: 20px;
-        width: 130px;
-        
-    }
-    .intro .contenido h3{
-        font-size: 15px;
-
-    }
-    .intro .contenido p{
-        font-size: 13px;
-        line-height: 1.3;
-        
-    }
-    .body {  
-        grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px;
-        grid-template-rows: 450px 70px 180px;
-    }
-    .body .intro { 
-        width: 370px;
-    }
-
-    .Beneficios { 
-        height: 60px; 
-        width: 370px;
-    }
-    
-    .Beneficios img{ 
-        height: 90px; 
-    
-    }
-
-    
-    .Tips { 
-        margin-top: 10px;
-        border-radius: 15px;
-        width: 370px;
-        height:170px
-    }
-
-    .Tips .titulo{
-        font-size:16px; 
-    }
-    
-    .Tips p{
-        font-size: 13px;
-        line-height: 1.5;
-    }
-
-    .body_clases{
-        grid-template-columns: 120px 120px 120px;
-        grid-template-rows: 200px 810px;
-        /*  background-color: antiquewhite;*/
-    }
-    p{
-        font-size: 14px;
-    }
-
-    h2{
-    font-size: 15px;
-    }
-
-    h3{
-        font-size: 15px;
-    }
-}
-    
