@@ -80,10 +80,11 @@ h5{
     line-height: 2;
     text-align: center;
 }
+/*
 .col-sm-4 {
     margin-top: 30%;
 
-}
+}*/
 .body_index img{
     border-radius:20px;
 
@@ -95,7 +96,7 @@ h5{
 }
 .item img{
     width: 99%;
-    margin-top:10%;
+    /*margin-top:10%;*/
 }
 
 
