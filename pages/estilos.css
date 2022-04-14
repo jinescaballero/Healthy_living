@@ -221,4 +221,26 @@ h1{
     width: 40px;
     display:flex;
 }
+
+.row img{  
+    display:none;
+    
+}
+.item img {
+    height: 25vh;
+    width: 25vh;
+    display:inline;
+
+}
+.nosotros_logo img{
+    width:95px;
+    height: 150px;
+}
+.tips_img{
+    display: none;
+}
+/*
+.Tips img{
+    display:none;
+}*/
 }
