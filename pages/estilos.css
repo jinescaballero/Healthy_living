@@ -141,16 +141,18 @@ h1 {
     list-style: none;
     color: black;
 }
+
+.lista_receta  li{
+    line-height: 1.5;
+    text-align: left;
+}
+
 h3{
     color:rgb(203, 147, 255);
     margin-top: 10px;
     text-align: center;
 }
 
-.lista_receta  li{
-    line-height: 1.5;
-    text-align: left;
-}
 
 .lista_receta  li::before {
     content: "\2022";  
