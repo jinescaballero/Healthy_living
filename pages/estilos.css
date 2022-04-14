@@ -76,15 +76,6 @@ h1 {
     width: 99%;
 }
 
-h5{
-    line-height: 2;
-    text-align: center;
-}
-/*
-.col-sm-4 {
-    margin-top: 30%;
-
-}*/
 .body_index img{
     border-radius:20px;
 
@@ -116,6 +107,7 @@ h5{
     margin-top: 10px;
     margin-bottom: 10px;
     line-height: 1,5;
+
 }
 
 .copy_footer {
@@ -154,13 +146,12 @@ h3{
     margin-top: 10px;
     text-align: center;
 }
-h5{
-    line-height: 1.5;
-}
 
 .lista_receta  li{
     line-height: 1.5;
+    text-align: left;
 }
+
 .lista_receta  li::before {
     content: "\2022";  
     color: rgb(203, 147, 255);
