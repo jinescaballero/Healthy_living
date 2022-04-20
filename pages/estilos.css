@@ -61,6 +61,10 @@ p {
     animation-name: slidein;
 }
 
+h3{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
 @keyframes slidein {
     from {
     margin-left: 100%;
