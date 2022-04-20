@@ -1,14 +1,14 @@
 @font-face{
     font-family :"Poppins";
-    src: url('../assets/font/Poppins/Poppins-Medium.ttf');
+    src: url('./assets/font/Poppins/Poppins-Medium.ttf');
 }
 @font-face {
     font-family: "StyleScript";
-    src: url('../assets/font/StyleScript-Regular.ttf');
+    src: url('./assets/font/StyleScript-Regular.ttf');
 }
 @font-face {
     font-family: "VarelaRound";
-    src: url('../assets/font/VarelaRound-Regular.ttf');
+    src: url('./assets/font/VarelaRound-Regular.ttf');
 }
 
 a{
@@ -48,6 +48,32 @@ ol li::marker {
     color: rgb(203, 147, 255);
     line-height: 1.5;
 }
+/* ------------------------------ANIMACIONES -------------------------------------*/
+.nav-item:hover {
+    filter:opacity(.5);
+    background-color:lightgrey;
+
+}
+
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 300%
+    }
+
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
+
+
 /*-------------------------------------------Body Header-----------------------------------------------------*/
 h1 {
     font-family: StyleScript;
