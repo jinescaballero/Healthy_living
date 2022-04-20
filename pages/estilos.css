@@ -90,14 +90,20 @@ h1 {
     padding-bottom:10%;
 }
 
+.card-img-top{
+    height: 220px;
+
+}
+
 
 
 
 .Tips { 
     grid-area: Tips;
     display: inline-block;
-    padding:1%;
+    padding:2%;
     justify-items: center;
+    align-items: center;
     border-radius: 15px;
 }
 
@@ -109,6 +115,7 @@ h1 {
     line-height: 1,5;
 
 }
+
 
 .copy_footer {
     text-align: center;
@@ -153,6 +160,10 @@ h3{
     text-align: center;
 }
 
+h4 {
+    text-align: start;
+    margin-left:  10px;  
+}
 
 .lista_receta  li::before {
     content: "\2022";  
@@ -226,14 +237,21 @@ h1{
 
 }
 .nosotros_logo img{
-    width:95px;
+    width:90px;
     height: 150px;
 }
-.tips_img{
-    display: none;
+
+.cards{
+    height:20%;
 }
-/*
-.Tips img{
-    display:none;
-}*/
+
+.d-block{
+    width:90%;
+    padding-left: 30px;
+
+}
+p{
+    font-size:14px;
+}
+
 }

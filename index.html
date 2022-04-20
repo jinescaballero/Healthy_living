@@ -85,37 +85,105 @@
         </section>
 
 
+<!--Aplicando Cards responsive con Bootstrap-->
+
 <!---------------------------------------BENEFICIOS -------------------------------------------->
 
-        <section class="container-fluid border">
-            <div class="row">
-                <div class="item col-sm-2 col-xs-1"> <img src="./assets/images/plato_comida.jpg"  alt="Food1"> </div>
-                <div class="item col-sm-2 col-xs-1 "> <img src="./assets/images/plato_comida2.jpg"  alt="Food2">  </div>
-                <div class="item col-sm-2 "> <img src="./assets/images/plato_comida3.jpg"  alt="Food3"> </div>
-                <div class="item col-sm-2 "> <img src="./assets/images/plato_comida4.jpg"  alt="Food4"></div>
-                <div class="item col-sm-2 "> <img src="./assets/images/plato_comida6.jpg"  alt="Food6"></div>
-                <div class="item col-sm-2 "> <img src="./assets/images/plato_comida7.jpg"  alt="Food6"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/plato_comida.jpg" alt="Ensalada de Atun">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensalada de Atun</h5>
+                        <p>Atun, Pepinos, Huevos, Berries, Tomate.</p>
+                    </div>
+                </div>
             </div>
-        </section>
 
-        <!-------------------------------------- TIPS  ---------------------------------------------->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/plato_comida8.jpg" alt="Ensalada frutal">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensalada Frutal</h5>
+                        <p> Chaucha, Frutilla, Uva, Durazno, Pelon.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/plato_comida3.jpg" alt="obra04">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensalada Queso Azul</h5>
+                        <p>Huevo, Tomates, Cherry, Queso Azul, Palta.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/plato_comida4.jpg" alt="obra04">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensalada de Mar</h5>
+                        <p>Lechuga, Aceitunas, Frutos de mar, Cherry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/plato_comida5.jpg" alt="obra04">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensalada de Chaucha y Atun</h5>
+                        <p>Chaucha, Huevo, Tomate, Atun, Aceitunas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/plato_comida6.jpg" alt="obra04">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensalada Berries</h5>
+                        <p>Chaucha, Tomate, Almendra, Berries, Brocoli.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-------------------------------------- TIPS  CARROUSEL ---------------------------------------------->
         <div class="Tips"> <h3>Tips Alimentación saludable</h3>
             <h5>
                 La alimentación saludable comienza con la elección de alimentos saludables. No necesita ser un chef para elaborar comidas nutritivas y saludables para el corazón que su familia adorará. Aprenda en qué debe fijarse en el supermercado, los restaurantes, el lugar de trabajo o en cualquier otra ocasión relacionada con la alimentación.
             <h5>  
-        </div>
-        <br><br>
-        <section class="container-fluid border tips_img">
-            <div class="row"> 
-                <div class="item col-sm-2 "> <img src="./assets/images/tip1.jpeg"  alt="tip1"> </div>
-                <div class="item col-sm-2 "> <img src="./assets/images/tip2.jpeg"  alt="tip2">  </div>
-                <div class="item col-sm-2 "> <img src="./assets/images/tip3.jpeg"  alt="tip3"> </div>
-                <div class="item col-sm-2 "> <img src="./assets/images/tip4.jpeg"  alt="tip4"> </div>
-                <div class="item col-sm-2 "> <img src="./assets/images/tip5.jpeg"  alt="tip5"> </div>
-                <div class="item col-sm-2 "> <img src="./assets/images/tip7.png"  alt="tip7"> </div>
-            </div>
-        </section>
-
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/tip1.jpeg"  class="d-block w-30%" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/tip2.jpeg"  class="d-block w-30%" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/tip3.jpeg"  class="d-block w-30%" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/tip4.jpeg"  class="d-block w-30%" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/tip5.jpeg"  class="d-block w-30%" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
         
         <script src="./libs/bootstrap/js/bootstrap.min.js"></script>"
     </body> 
