@@ -23,6 +23,14 @@ h3{
 font-family:"VarelaRound";
 
 }
+h5{
+    font-family:"VarelaRound";
+    
+}
+li{
+    font-family:"VarelaRound";
+    
+    }
 h2{
     font-family:"VarelaRound";
     }
@@ -67,12 +75,12 @@ h3{
 }
 @keyframes slidein {
     from {
-    margin-left: 100%;
+    margin-left: 0%;
     width: 300%
     }
 
     to {
-    margin-left: 0%;
+    margin-right: 100%;
     width: 100%;
     }
 }
@@ -95,6 +103,11 @@ h1 {
 
 .logo_menu img{
     display:none;
+}
+
+.logo img{
+    width: 1px;
+    /*display:flex;*/
 }
 /*-------------------------------------------Body Main ----------------------------------------------------*/
 
@@ -277,9 +290,16 @@ animate__backInDown
     height: 150px;
 }
 
-.cards{
-    height:20%;
+.card-img-top {
+    height: 1  px;
+
 }
+
+
+.cards img{
+    height:14%;
+    width: 1%;
+}*/
 
 .d-block{
     width:90%;
