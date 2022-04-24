@@ -1,5 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200&family=Raleway:wght@200&display=swap');
+
+$font_instrucciones: 'Raleway', sans-serif;
+
+
 
 .imagen_receta{
     width: 95%;
@@ -11,6 +14,7 @@
 .lista_receta {
     list-style: none;
     color: black;
+
     li{
         line-height: 1.5;
         text-align: left;
@@ -23,5 +27,9 @@
         width: 1em; 
         margin-left: -1em; 
     }
+
 }
 
+.text-start li {
+    font-family: $font_instrucciones;
+}

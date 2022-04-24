@@ -55,7 +55,7 @@ ol{
 }
 
 ol li::marker {
-    color: rgb(203, 147, 255);
+    color: $lila_color;
     line-height: 1.5;
 }
 /* ------------------------------ANIMACIONES -------------------------------------*/
@@ -94,7 +94,7 @@ h1 {
     padding-top:1%;
     font-size: 400%;
     color: $lila_color;
-    background: #e2fdf4;
+    background: $border_color;
     margin-bottom:1.5%;
     margin-top:2%;
     line-height:90% !important;

@@ -26,6 +26,10 @@
   margin-left: -1em;
 }
 
+.text-start li {
+  font-family: "Raleway", sans-serif;
+}
+
 @font-face {
   font-family: "Poppins";
   src: url("../assets/font/Poppins/Poppins-Medium.ttf");
