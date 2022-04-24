@@ -21,10 +21,9 @@ h4 {
 }
 
 .imagen_receta {
-  width: 95%;
+  margin-top: 30px;
+  padding-top: 30px;
   align-items: center;
-  margin-top: 40px;
-  display: flex;
   border-radius: 15px;
 }
 
@@ -154,26 +153,22 @@ h1 {
 }
 
 /*-------------------------------------------Body Main ----------------------------------------------------*/
-.body_index {
-  display: flex;
-  border-radius: 15px;
-  border: solid 2px #e2fdf4;
-  text-align: center;
-  width: 99%;
-}
+/*
 
-.body_index img {
-  border-radius: 20px;
+.imagen_index img {
+    width: 97%;
+    border-radius: 15px;
 }
-
+*/
 .item {
   align-items: center;
   text-align: center;
 }
 
+/*Imagen del Index*/
 .item img {
   width: 99%;
-  padding-bottom: 10%;
+  border-radius: 15px;
 }
 
 .card-img-top {
@@ -182,15 +177,16 @@ h1 {
 
 .card {
   margin-top: 10px;
+  border: 2px solid #b6f8d0;
+  border-radius: 15px;
 }
 
 .carousel-inner > .active {
   position: relative;
-  transform: translateX(28%);
+  transform: translateX(20%);
 }
 
 .Tips {
-  /*display: inline-block;*/
   padding: 2%;
   border-radius: 15px;
   border: 2px solid #b6f8d0;
@@ -252,11 +248,24 @@ h1 {
   filter: opacity(0.5);
 }
 
-/*-------------------------------------------responsive 200px to 767px -------------------------------------*/
-@media (min-width: 200px) and (max-width: 767px) {
+/*
+------------------------------------------responsive 200px to 800px -------------------------------------
+@media (min-width:800px) and (max-width:991px){
+    .d-block w-30% img{
+        width:8%;
+
+    }
+}*/
+/*-------------------------------------------responsive 200px to 800px -------------------------------------*/
+@media (max-width: 800px) {
   h1 {
     font-size: 300%;
     margin-bottom: 4%;
+  }
+
+  /*Imagen del Index*/
+  .item img {
+    margin-top: 130px;
   }
 
   .logo {
@@ -268,14 +277,11 @@ h1 {
     display: flex;
   }
 
-  animate__backInDown .row img {
-    display: none;
-  }
-
-  .item img {
-    height: 25vh;
-    width: 25vh;
-    display: inline;
+  .card {
+    border: 2px solid #b6f8d0;
+    border-radius: 15px;
+    margin: 10px;
+    height: 310px;
   }
 
   .nosotros_logo img {
@@ -283,17 +289,16 @@ h1 {
     height: 150px;
   }
 
-  .d-block {
-    width: 90%;
-    padding-left: 20px;
-  }
-
   /*---Centrando Carousel ---- */
-  .carousel-inner > .active {
-    transform: translateX(2%);
+  .carousel-inner > .active img {
+    width: 300px;
   }
 
   p {
+    font-size: 14px;
+  }
+
+  .copy_footer {
     font-size: 14px;
   }
 }
