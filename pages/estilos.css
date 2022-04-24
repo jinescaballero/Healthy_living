@@ -190,12 +190,10 @@ h1 {
 }
 
 .Tips {
-  grid-area: Tips;
-  display: inline-block;
+  /*display: inline-block;*/
   padding: 2%;
-  justify-items: center;
-  align-items: center;
   border-radius: 15px;
+  border: 2px solid #b6f8d0;
 }
 
 .Tips h5 {
@@ -287,9 +285,10 @@ h1 {
 
   .d-block {
     width: 90%;
-    padding-left: 30px;
+    padding-left: 20px;
   }
 
+  /*---Centrando Carousel ---- */
   .carousel-inner > .active {
     transform: translateX(2%);
   }
