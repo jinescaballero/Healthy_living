@@ -1,6 +1,25 @@
 @charset "UTF-8";
 /* Declaracion de Variables*/
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200&family=Raleway:wght@200&display=swap");
+/* --------------------------------recetas----------------------------------------*/
+.container_body {
+  border: solid 2px #e2fdf4;
+  border-radius: 15px;
+  justify-content: space-around;
+  width: 99%;
+}
+
+h3 {
+  color: rgb(203, 147, 255);
+  margin-top: 10px;
+  text-align: center;
+}
+
+h4 {
+  text-align: start;
+  margin-left: 10px;
+}
+
 .imagen_receta {
   width: 95%;
   align-items: center;
@@ -165,6 +184,11 @@ h1 {
   margin-top: 10px;
 }
 
+.carousel-inner > .active {
+  position: relative;
+  transform: translateX(28%);
+}
+
 .Tips {
   grid-area: Tips;
   display: inline-block;
@@ -189,25 +213,6 @@ h1 {
 /*--------------------------Clases----------------------*/
 .item iframe {
   border-radius: 15px;
-}
-
-/* --------------------------------recetas----------------------------------------*/
-.container_body {
-  border: solid 2px #e2fdf4;
-  border-radius: 15px;
-  justify-content: space-around;
-  width: 99%;
-}
-
-h3 {
-  color: rgb(203, 147, 255);
-  margin-top: 10px;
-  text-align: center;
-}
-
-h4 {
-  text-align: start;
-  margin-left: 10px;
 }
 
 /*------------------------------Sobre Nosotros ----------------------------*/
@@ -283,6 +288,10 @@ h4 {
   .d-block {
     width: 90%;
     padding-left: 30px;
+  }
+
+  .carousel-inner > .active {
+    transform: translateX(2%);
   }
 
   p {

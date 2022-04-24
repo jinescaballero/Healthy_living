@@ -2,6 +2,27 @@
 
 $font_instrucciones: 'Raleway', sans-serif;
 
+/* --------------------------------recetas----------------------------------------*/
+
+
+.container_body{
+    border: solid 2px $border_color;
+    border-radius: 15px;
+    justify-content: space-around;
+    width:99%;
+
+}
+
+h3{
+    color: $lila_color;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h4 {
+    text-align: start;
+    margin-left:  10px;  
+}
 
 
 .imagen_receta{

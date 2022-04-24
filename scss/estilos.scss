@@ -143,6 +143,10 @@ h1 {
     margin-top: 10px;
 }
 
+.carousel-inner>.active {
+    position: relative;
+    transform: translateX(28%);
+}
 
 .Tips { 
     grid-area: Tips;
@@ -172,27 +176,6 @@ h1 {
     border-radius: 15px;
 }
 
-/* --------------------------------recetas----------------------------------------*/
-
-
-.container_body{
-    border: solid 2px $border_color;
-    border-radius: 15px;
-    justify-content: space-around;
-    width:99%;
-
-}
-
-h3{
-    color: $lila_color;
-    margin-top: 10px;
-    text-align: center;
-}
-
-h4 {
-    text-align: start;
-    margin-left:  10px;  
-}
 
 
 /*------------------------------Sobre Nosotros ----------------------------*/
@@ -274,6 +257,10 @@ animate__backInDown
     width:90%;
     padding-left: 30px;
 
+}
+
+.carousel-inner>.active {
+    transform: translateX(2%);
 }
 p{
     font-size:14px;
