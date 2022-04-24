@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200&family=Raleway:wght@200&display=swap');
+
+.imagen_receta{
+    width: 95%;
+    align-items: center;
+    margin-top:40px;
+    display: flex;
+    border-radius: 15px;
+}
+.lista_receta {
+    list-style: none;
+    color: black;
+    li{
+        line-height: 1.5;
+        text-align: left;
+    }
+    li::before{
+        content: "\2022";  
+        color: $lila_color;
+        font-weight: bold; 
+        display: inline-block; 
+        width: 1em; 
+        margin-left: -1em; 
+    }
+}
+
