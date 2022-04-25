@@ -149,28 +149,27 @@ h1 {
 }
 
 .logo img {
-  width: 1px;
+  margin-top: 5px;
 }
 
 /*-------------------------------------------Body Main ----------------------------------------------------*/
+/*Imagen del Index*/
 .item {
   align-items: center;
   text-align: center;
 }
-
-/*Imagen del Index*/
 .item img {
   width: 99%;
   border-radius: 15px;
 }
 
 .card-img-top {
-  height: 220px;
+  height: 230px;
 }
 
 .card {
   margin-top: 10px;
-  border: 2px solid #b6f8d0;
+  border: 2px solid #e2fdf4;
   border-radius: 15px;
 }
 
@@ -183,9 +182,8 @@ h1 {
   margin: 2%;
   padding: 2%;
   border-radius: 15px;
-  border: 2px solid #b6f8d0;
+  border: 2px solid #e2fdf4;
 }
-
 .Tips h5 {
   font-weight: 360;
   color: rgb(141, 138, 138);
@@ -198,9 +196,11 @@ h1 {
   text-align: center;
 }
 
-/*--------------------------Clases----------------------*/
+/*---------------------------------Clases--------------------------------*/
 .item iframe {
   border-radius: 15px;
+  height: 99%;
+  width: 99%;
 }
 
 /*------------------------------Sobre Nosotros ----------------------------*/
@@ -209,7 +209,7 @@ h1 {
   height: 340px;
 }
 
-/*-------------------------------------------Footer ----------------------------------------------------*/
+/*-----------------------------------Footer ----------------------------------*/
 .footer {
   margin-top: 20px;
   display: grid;
@@ -242,7 +242,7 @@ h1 {
   filter: opacity(0.5);
 }
 
-/*-------------------------------------------responsive 701px to 800px -------------------------------------*/
+/*----------------------------------responsive 701px to 800px -------------------------*/
 @media (min-width: 701px) and (max-width: 800px) {
   /*Imagen del Index*/
   .item img {
@@ -286,7 +286,7 @@ h1 {
     font-size: 14px;
   }
 }
-/*-------------------------------------------responsive 200px to 800px -------------------------------------*/
+/*--------------------------------------responsive 200px to 800px ------------------------------*/
 @media (max-width: 700px) {
   h1 {
     font-size: 300%;
