@@ -1,6 +1,9 @@
-
+/* Modulos */
 @import "colores";
 @import "receta";
+@import "footer";
+@import "header";
+@import "index_body";
 
 @font-face{
     font-family :"Poppins";
@@ -87,78 +90,7 @@ h3{
 }
 
 
-/*-------------------------------------------Body Header-----------------------------------------------------*/
-h1 {
-    font-family: StyleScript;
-    padding-top:1%;
-    font-size: 400%;
-    color: $lila_color;
-    background: $border_color;
-    margin-bottom:1.5%;
-    margin-top:2%;
-    line-height:90% !important;
-    text-align: center;
-    border: 2px solid $site_color;
-    border-radius: 15px;
-}
 
-.logo_menu img{
-    display:none;
-}
-
-.logo {
-    img{
-        margin-top: 5px;
-    }
-}
-/*-------------------------------------------Body Main ----------------------------------------------------*/
-
-/*Imagen del Index*/
-.item {
-    align-items: center;
-    text-align: center;
-    img{
-        width: 99%;
-        border-radius: 15px;
-    }
-}
-
-.card-img-top{
-    height: 230px;
-
-}
-
-.card {
-    margin-top: 10px;
-    border: 2px solid $border_color;
-    border-radius: 15px;
-}
-
-.carousel-inner>.active {
-    position: relative;
-    transform: translateX(25%);
-}
-
-.Tips { 
-    margin:2%;
-    padding:2%;
-    border-radius: 15px;
-    border: 2px solid $border_color;
-    h5{
-        font-weight: 360;
-        color: $gray_color;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        line-height: 1,5;
-    
-    }
-}
-
-
-
-.copy_footer {
-    text-align: center;
-}
 /*---------------------------------Clases--------------------------------*/
 
 .item {
@@ -172,45 +104,14 @@ h1 {
 
 
 /*------------------------------Sobre Nosotros ----------------------------*/
+.container_body{
+    border-radius: 15px;
+    border: 2px solid $border_color;
+
+}
 .nosotros_logo img{
     width:230px;
     height: 340px;
-}
-
-/*-----------------------------------Footer ----------------------------------*/
-
-.footer {  
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "Footer_icons"
-    "Footer_copyright";
-}
-
-.footer_section {
-    grid-area: Footer_icons;
-    display:flex;
-    justify-content: space-around; 
-    align-items:center;
-    justify-content: center;
-    background-color: $border_color;
-    border-radius: 15px;
-
-}   
-.footer_section .footer_icons{
-    display: flex;
-    justify-content: space-around;
-    width: 150px;
-    text-align:center;
-    padding: 5px;
-}
-
-.hover:hover{
-    filter:opacity(.5)
 }
 
 /*----------------------------------responsive 701px to 800px -------------------------*/
@@ -224,7 +125,7 @@ h1 {
         display:none
         
     }
-    /*---Centrando Carousel ---- */
+    /*---Centrando Carousel de indez ---- */
     .carousel-inner>.active {
         transform: translateX(15%);
         img{
@@ -241,7 +142,7 @@ h1 {
 
 
     .card {
-        border: 2px solid $site_color;
+        border: 2px solid $border_color;
         border-radius: 15px;
         margin: 10px;
         height: 300px;
@@ -262,7 +163,7 @@ h1 {
 
 }
 
-/*--------------------------------------responsive 200px to 800px ------------------------------*/
+/*--------------------------------------responsive hasta 700px ------------------------------*/
 @media (max-width:700px){   
     h1{
         font-size: 300%;
@@ -280,7 +181,7 @@ h1 {
         display:none
         
     }
-    /*---Centrando Carousel ---- */
+    /*---Centrando Carousel del index---- */
     .carousel-inner>.active {
         transform: translateX(6%);
         img{

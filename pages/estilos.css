@@ -1,9 +1,10 @@
 @charset "UTF-8";
+/* Modulos */
 /* Declaracion de Variables*/
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200&family=Raleway:wght@200&display=swap");
 /* --------------------------------recetas----------------------------------------*/
-.container_body {
-  border: solid 2px #e2fdf4;
+.receta_body {
+  border: solid 2px #b6f8d0;
   border-radius: 15px;
   justify-content: space-around;
   width: 99%;
@@ -46,6 +47,107 @@ h4 {
 
 .text-start li {
   font-family: "Raleway", sans-serif;
+}
+
+/*-----------------------------------Footer ----------------------------------*/
+.footer {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "Footer_icons" "Footer_copyright";
+}
+.footer .footer_section {
+  grid-area: Footer_icons;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  background-color: #b6f8d0;
+  border-radius: 15px;
+}
+.footer .footer_section .footer_icons {
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+}
+
+.hover:hover {
+  filter: opacity(0.5);
+}
+
+.hover:hover {
+  filter: opacity(0.5);
+}
+
+.copy_footer {
+  text-align: center;
+}
+
+/*-------------------------------------------Body Header-----------------------------------------------------*/
+h1 {
+  font-family: StyleScript;
+  padding-top: 1%;
+  font-size: 400%;
+  color: rgb(203, 147, 255);
+  background: #b6f8d0;
+  margin-bottom: 1.5%;
+  margin-top: 2%;
+  line-height: 90% !important;
+  text-align: center;
+  border: 2px solid #e2fdf4;
+  border-radius: 15px;
+}
+
+.logo_menu img {
+  display: none;
+}
+
+.logo img {
+  margin-top: 5px;
+}
+
+/*Imagen del Index*/
+.item {
+  align-items: center;
+  text-align: center;
+}
+.item img {
+  width: 99%;
+  border-radius: 15px;
+}
+
+.card-img-top {
+  height: 230px;
+}
+
+.card {
+  margin-top: 10px;
+  border: 2px solid #b6f8d0;
+  border-radius: 15px;
+}
+
+.carousel-inner > .active {
+  position: relative;
+  transform: translateX(25%);
+}
+
+.Tips {
+  margin: 2%;
+  padding: 2%;
+  border-radius: 15px;
+  border: 2px solid #b6f8d0;
+}
+.Tips h5 {
+  font-weight: 360;
+  color: rgb(141, 138, 138);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1, 5;
 }
 
 @font-face {
@@ -129,73 +231,6 @@ h3 {
     width: 100%;
   }
 }
-/*-------------------------------------------Body Header-----------------------------------------------------*/
-h1 {
-  font-family: StyleScript;
-  padding-top: 1%;
-  font-size: 400%;
-  color: rgb(203, 147, 255);
-  background: #e2fdf4;
-  margin-bottom: 1.5%;
-  margin-top: 2%;
-  line-height: 90% !important;
-  text-align: center;
-  border: 2px solid #b6f8d0;
-  border-radius: 15px;
-}
-
-.logo_menu img {
-  display: none;
-}
-
-.logo img {
-  margin-top: 5px;
-}
-
-/*-------------------------------------------Body Main ----------------------------------------------------*/
-/*Imagen del Index*/
-.item {
-  align-items: center;
-  text-align: center;
-}
-.item img {
-  width: 99%;
-  border-radius: 15px;
-}
-
-.card-img-top {
-  height: 230px;
-}
-
-.card {
-  margin-top: 10px;
-  border: 2px solid #e2fdf4;
-  border-radius: 15px;
-}
-
-.carousel-inner > .active {
-  position: relative;
-  transform: translateX(25%);
-}
-
-.Tips {
-  margin: 2%;
-  padding: 2%;
-  border-radius: 15px;
-  border: 2px solid #e2fdf4;
-}
-.Tips h5 {
-  font-weight: 360;
-  color: rgb(141, 138, 138);
-  margin-top: 10px;
-  margin-bottom: 10px;
-  line-height: 1, 5;
-}
-
-.copy_footer {
-  text-align: center;
-}
-
 /*---------------------------------Clases--------------------------------*/
 .item iframe {
   border-radius: 15px;
@@ -204,42 +239,14 @@ h1 {
 }
 
 /*------------------------------Sobre Nosotros ----------------------------*/
+.container_body {
+  border-radius: 15px;
+  border: 2px solid #b6f8d0;
+}
+
 .nosotros_logo img {
   width: 230px;
   height: 340px;
-}
-
-/*-----------------------------------Footer ----------------------------------*/
-.footer {
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "Footer_icons" "Footer_copyright";
-}
-
-.footer_section {
-  grid-area: Footer_icons;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  justify-content: center;
-  background-color: #e2fdf4;
-  border-radius: 15px;
-}
-
-.footer_section .footer_icons {
-  display: flex;
-  justify-content: space-around;
-  width: 150px;
-  text-align: center;
-  padding: 5px;
-}
-
-.hover:hover {
-  filter: opacity(0.5);
 }
 
 /*----------------------------------responsive 701px to 800px -------------------------*/
@@ -253,7 +260,7 @@ h1 {
     display: none;
   }
 
-  /*---Centrando Carousel ---- */
+  /*---Centrando Carousel de indez ---- */
   .carousel-inner > .active {
     transform: translateX(15%);
   }
@@ -286,7 +293,7 @@ h1 {
     font-size: 14px;
   }
 }
-/*--------------------------------------responsive 200px to 800px ------------------------------*/
+/*--------------------------------------responsive hasta 700px ------------------------------*/
 @media (max-width: 700px) {
   h1 {
     font-size: 300%;
@@ -302,7 +309,7 @@ h1 {
     display: none;
   }
 
-  /*---Centrando Carousel ---- */
+  /*---Centrando Carousel del index---- */
   .carousel-inner > .active {
     transform: translateX(6%);
   }
@@ -316,7 +323,7 @@ h1 {
   }
 
   .card {
-    border: 2px solid #b6f8d0;
+    border: 2px solid #e2fdf4;
     border-radius: 15px;
     margin: 10px;
     height: 310px;

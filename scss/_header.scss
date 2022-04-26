@@ -1,0 +1,26 @@
+
+
+/*-------------------------------------------Body Header-----------------------------------------------------*/
+h1 {
+    font-family: StyleScript;
+    padding-top:1%;
+    font-size: 400%;
+    color: $lila_color;
+    background: $border_color;
+    margin-bottom:1.5%;
+    margin-top:2%;
+    line-height:90% !important;
+    text-align: center;
+    border: 2px solid $site_color;
+    border-radius: 15px;
+}
+
+.logo_menu img{
+    display:none;
+}
+
+.logo {
+    img{
+        margin-top: 5px;
+    }
+}

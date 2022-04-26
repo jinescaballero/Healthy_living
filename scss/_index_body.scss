@@ -1,0 +1,41 @@
+
+/*Imagen del Index*/
+.item {
+    align-items: center;
+    text-align: center;
+    img{
+        width: 99%;
+        border-radius: 15px;
+    }
+}
+
+.card-img-top{
+    height: 230px;
+
+}
+
+.card {
+    margin-top: 10px;
+    border: 2px solid $border_color;
+    border-radius: 15px;
+}
+
+.carousel-inner>.active {
+    position: relative;
+    transform: translateX(25%);
+}
+
+.Tips { 
+    margin:2%;
+    padding:2%;
+    border-radius: 15px;
+    border: 2px solid $border_color;
+    h5{
+        font-weight: 360;
+        color: $gray_color;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 1,5;
+    
+    }
+}
