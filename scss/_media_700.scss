@@ -1,0 +1,48 @@
+/*----------------------------------responsive 701px to 800px -------------------------*/
+@media (min-width:701px) and (max-width:800px){
+    /*Imagen del Index*/
+    .item img{
+        margin-top: 120px;
+    }
+
+    .logo{
+        display:none
+        
+    }
+    /*---Centrando Carousel de indez ---- */
+    .carousel-inner>.active {
+        transform: translateX(15%);
+        img{
+            width:430px;
+        }
+    }
+
+    .logo_menu{
+        img{
+            width: 50px;
+            display:flex;
+        }
+    }
+
+
+    .card {
+        border: 2px solid $border_color;
+        border-radius: 15px;
+        margin: 10px;
+        height: 300px;
+    }
+
+    .nosotros_logo img{
+        width:90px;
+        height: 150px;
+    }
+
+
+    p{
+        font-size:14px;
+    }
+    .copy_footer{
+        font-size: 14px;
+    }
+
+}

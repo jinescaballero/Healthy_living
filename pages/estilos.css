@@ -150,6 +150,99 @@ h1 {
   line-height: 1, 5;
 }
 
+/*----------------------------------responsive 701px to 800px -------------------------*/
+@media (min-width: 701px) and (max-width: 800px) {
+  /*Imagen del Index*/
+  .item img {
+    margin-top: 120px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  /*---Centrando Carousel de indez ---- */
+  .carousel-inner > .active {
+    transform: translateX(15%);
+  }
+  .carousel-inner > .active img {
+    width: 430px;
+  }
+
+  .logo_menu img {
+    width: 50px;
+    display: flex;
+  }
+
+  .card {
+    border: 2px solid #b6f8d0;
+    border-radius: 15px;
+    margin: 10px;
+    height: 300px;
+  }
+
+  .nosotros_logo img {
+    width: 90px;
+    height: 150px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .copy_footer {
+    font-size: 14px;
+  }
+}
+/*--------------------------------------responsive hasta 700px ------------------------------*/
+@media (max-width: 700px) {
+  h1 {
+    font-size: 300%;
+    margin-bottom: 4%;
+  }
+
+  /*Imagen del Index*/
+  .item img {
+    margin-top: 100px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  /*---Centrando Carousel del index---- */
+  .carousel-inner > .active {
+    transform: translateX(6%);
+  }
+  .carousel-inner > .active img {
+    width: 320px;
+  }
+
+  .logo_menu img {
+    width: 40px;
+    display: flex;
+  }
+
+  .card {
+    border: 2px solid #b6f8d0;
+    border-radius: 15px;
+    margin: 10px;
+    height: 310px;
+  }
+
+  .nosotros_logo img {
+    width: 110px;
+    height: 150px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .copy_footer {
+    font-size: 14px;
+  }
+}
 @font-face {
   font-family: "Poppins";
   src: url("../assets/font/Poppins/Poppins-Medium.ttf");
@@ -247,100 +340,6 @@ h3 {
 .nosotros_logo img {
   width: 230px;
   height: 340px;
-}
-
-/*----------------------------------responsive 701px to 800px -------------------------*/
-@media (min-width: 701px) and (max-width: 800px) {
-  /*Imagen del Index*/
-  .item img {
-    margin-top: 120px;
-  }
-
-  .logo {
-    display: none;
-  }
-
-  /*---Centrando Carousel de indez ---- */
-  .carousel-inner > .active {
-    transform: translateX(15%);
-  }
-  .carousel-inner > .active img {
-    width: 430px;
-  }
-
-  .logo_menu img {
-    width: 50px;
-    display: flex;
-  }
-
-  .card {
-    border: 2px solid #b6f8d0;
-    border-radius: 15px;
-    margin: 10px;
-    height: 300px;
-  }
-
-  .nosotros_logo img {
-    width: 90px;
-    height: 150px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-
-  .copy_footer {
-    font-size: 14px;
-  }
-}
-/*--------------------------------------responsive hasta 700px ------------------------------*/
-@media (max-width: 700px) {
-  h1 {
-    font-size: 300%;
-    margin-bottom: 4%;
-  }
-
-  /*Imagen del Index*/
-  .item img {
-    margin-top: 100px;
-  }
-
-  .logo {
-    display: none;
-  }
-
-  /*---Centrando Carousel del index---- */
-  .carousel-inner > .active {
-    transform: translateX(6%);
-  }
-  .carousel-inner > .active img {
-    width: 320px;
-  }
-
-  .logo_menu img {
-    width: 40px;
-    display: flex;
-  }
-
-  .card {
-    border: 2px solid #b6f8d0;
-    border-radius: 15px;
-    margin: 10px;
-    height: 310px;
-  }
-
-  .nosotros_logo img {
-    width: 110px;
-    height: 150px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-
-  .copy_footer {
-    font-size: 14px;
-  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
