@@ -65,7 +65,7 @@ h4 {
   justify-content: space-around;
   align-items: center;
   justify-content: center;
-  background-color: #b6f8d0;
+  background-color: #e2fdf4;
   border-radius: 15px;
 }
 .footer .footer_section .footer_icons {
@@ -94,12 +94,12 @@ h1 {
   padding-top: 1%;
   font-size: 400%;
   color: rgb(203, 147, 255);
-  background: #b6f8d0;
+  background: #e2fdf4;
   margin-bottom: 1.5%;
   margin-top: 2%;
   line-height: 90% !important;
   text-align: center;
-  border: 2px solid #e2fdf4;
+  border: 2px solid #b6f8d0;
   border-radius: 15px;
 }
 
@@ -323,7 +323,7 @@ h3 {
   }
 
   .card {
-    border: 2px solid #e2fdf4;
+    border: 2px solid #b6f8d0;
     border-radius: 15px;
     margin: 10px;
     height: 310px;
