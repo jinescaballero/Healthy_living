@@ -52,7 +52,7 @@ li{
 ol{
     line-height: 1.5;
     font-size: 1.1vw;
-    color: black;
+    color: map-get($estilos,font_color);
 }
 
 ol{
@@ -60,14 +60,15 @@ ol{
 }
 
 ol li::marker {
-    color: $lila_color;
+    color: map-get($estilos,lila_color);
     line-height: 1.5;
 }
 /* ------------------------------ANIMACIONES -------------------------------------*/
-.nav-item:hover {
-    filter:opacity(.5);
-    background-color:lightgrey;
-
+.nav-item {
+    &:hover{
+        filter:opacity(.5);
+        background-color:lightgrey;
+    }
 }
 
 p {
@@ -108,45 +109,12 @@ h3{
 /*------------------------------Sobre Nosotros ----------------------------*/
 .container_body{
     border-radius: 15px;
-    border: 2px solid $border_color;
+    border: map-get($estilos,border);
+    background-color:map-get($estilos,gradient-right);
     
 
 }
 .nosotros_logo img{
     width:230px;
     height: 340px;
-}
-
-/*------------------------------Ciclo FOR ----------------------------*/
-
-@for $i from 1 through 10{
-    .col-#{$i}{
-        width: $i * 10%;
-    }
-}
-/*------------------------------Each ----------------------------*/
-$arreglo-colores: (
-    gris-1: #ccc,
-    gris-2: #aeaeae,
-    gris-3: #a4a4a4
-);
-@each $color,$valor in $arreglo-colores{
-    .fondo-#{$color}{
-        background-color: $valor;
-
-    }
-}
-
-/*------------------------------Otro Each ----------------------------*/
-$redes: (
-    twitter: #55acee,
-    facebook: #3a5795,
-    send-email: #c25e30
-
-);
-
-@each $red,$color in $redes{
-    .btn--#{$red}{
-        background-color: $color;
-    }
 }

@@ -5,13 +5,13 @@ h1 {
     font-family: StyleScript;
     padding-top:1%;
     font-size: 400%;
-    color: $lila_color;
-    background: $site_color;
+    color: map-get($estilos,lila_color);
+    background: map-get($estilos,site_color);
     margin-bottom:1.5%;
     margin-top:2%;
     line-height:90% !important;
     text-align: center;
-    border: 2px solid $border_color;
+    border: map-get($estilos,border);
     border-radius: 15px;
 }
 

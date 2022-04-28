@@ -16,7 +16,7 @@
 
 .card {
     margin-top: 10px;
-    border: 2px solid $border_color;
+    border: map-get($estilos,border);
     border-radius: 15px;
 }
 
@@ -29,10 +29,10 @@
     margin:2%;
     padding:2%;
     border-radius: 15px;
-    border: 2px solid $border_color;
+    border: map-get($estilos,border);
     h5{
         font-weight: 360;
-        color: $gray_color;
+        color: map-get($estilos,gray_color);
         margin-top: 10px;
         margin-bottom: 10px;
         line-height: 1,5;

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200&family=Raleway:wght@200&display=swap');
 
-$font_instrucciones: 'Raleway', sans-serif;
+
 
 /* --------------------------------recetas----------------------------------------*/
 
 
 .receta_body{
-    border: solid 2px $border_color;
+    border: map-get($estilos,border);
     border-radius: 15px;
     justify-content: space-around;
     width:99%;
@@ -14,7 +14,7 @@ $font_instrucciones: 'Raleway', sans-serif;
 }
 
 h3{
-    color: $lila_color;
+    color: map-get($estilos,lila_color);
     margin-top: 10px;
     text-align: center;
 }
@@ -34,7 +34,7 @@ h4 {
 
 .lista_receta {
     list-style: none;
-    color: black;
+    color: map-get($estilos, font_color);
 
     li{
         line-height: 1.5;
@@ -42,7 +42,7 @@ h4 {
     }
     li::before{
         content: "\2022";  
-        color: $lila_color;
+        color: map-get($estilos,lila_color);
         font-weight: bold; 
         display: inline-block; 
         width: 1em; 
@@ -52,5 +52,5 @@ h4 {
 }
 
 .text-start li {
-    font-family: $font_instrucciones;
+    font-family: map-get($estilos,font_instrucciones);
 }

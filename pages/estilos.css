@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200&family=Raleway:wght@200&display=swap");
 /* --------------------------------recetas----------------------------------------*/
 .receta_body {
-  border: solid 2px #b6f8f4;
+  border: 2px solid #b6f8f4;
   border-radius: 15px;
   justify-content: space-around;
   width: 99%;
@@ -335,78 +335,12 @@ h3 {
 .container_body {
   border-radius: 15px;
   border: 2px solid #b6f8f4;
+  background-color: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 70%, #dbfbde 100%);
 }
 
 .nosotros_logo img {
   width: 230px;
   height: 340px;
-}
-
-/*------------------------------Ciclo FOR ----------------------------*/
-.col-1 {
-  width: 10%;
-}
-
-.col-2 {
-  width: 20%;
-}
-
-.col-3 {
-  width: 30%;
-}
-
-.col-4 {
-  width: 40%;
-}
-
-.col-5 {
-  width: 50%;
-}
-
-.col-6 {
-  width: 60%;
-}
-
-.col-7 {
-  width: 70%;
-}
-
-.col-8 {
-  width: 80%;
-}
-
-.col-9 {
-  width: 90%;
-}
-
-.col-10 {
-  width: 100%;
-}
-
-/*------------------------------Each ----------------------------*/
-.fondo-gris-1 {
-  background-color: #ccc;
-}
-
-.fondo-gris-2 {
-  background-color: #aeaeae;
-}
-
-.fondo-gris-3 {
-  background-color: #a4a4a4;
-}
-
-/*------------------------------Otro Each ----------------------------*/
-.btn--twitter {
-  background-color: #55acee;
-}
-
-.btn--facebook {
-  background-color: #3a5795;
-}
-
-.btn--send-email {
-  background-color: #c25e30;
 }
 
 /*# sourceMappingURL=estilos.css.map */

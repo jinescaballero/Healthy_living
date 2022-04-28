@@ -26,7 +26,7 @@
 
 
     .card {
-        border: 2px solid $border_color;
+        border: map-get($estilos,border);
         border-radius: 15px;
         margin: 10px;
         height: 300px;
