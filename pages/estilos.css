@@ -3,7 +3,9 @@
 /* Declaracion de Variables*/
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@200&family=Raleway:wght@200&display=swap");
 /* --------------------------------recetas----------------------------------------*/
+/*MIXIN----------------------------------------------------------------XCEX*/
 .receta_body {
+  margin-top: 10px;
   border: 2px solid #b6f8f4;
   border-radius: 15px;
   justify-content: space-around;
@@ -125,7 +127,7 @@ h1 {
   height: 230px;
 }
 
-.card {
+.card, .container_body {
   margin-top: 10px;
   border: 2px solid #b6f8f4;
   border-radius: 15px;
@@ -174,7 +176,7 @@ h1 {
     display: flex;
   }
 
-  .card {
+  .card, .container_body {
     border: 2px solid #b6f8f4;
     border-radius: 15px;
     margin: 10px;
@@ -223,7 +225,7 @@ h1 {
     display: flex;
   }
 
-  .card {
+  .card, .container_body {
     border: 2px solid #b6f8f4;
     border-radius: 15px;
     margin: 10px;
@@ -332,10 +334,11 @@ h3 {
 }
 
 /*------------------------------Sobre Nosotros ----------------------------*/
+/*extend: Container body extiende de la clase card de index  */
 .container_body {
-  border-radius: 15px;
-  border: 2px solid #b6f8f4;
-  background-color: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 70%, #dbfbde 100%);
+  justify-content: space-around;
+  width: 99%;
+  background-color: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, #dbfbde 100%);
 }
 
 .nosotros_logo img {

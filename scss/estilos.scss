@@ -96,6 +96,10 @@ h3{
 
 /*---------------------------------Clases--------------------------------*/
 
+@mixin item {
+    @include card();
+}
+
 .item {
     iframe {
         border-radius: 15px;
@@ -107,13 +111,15 @@ h3{
 
 
 /*------------------------------Sobre Nosotros ----------------------------*/
+/*extend: Container body extiende de la clase card de index  */
 .container_body{
-    border-radius: 15px;
-    border: map-get($estilos,border);
+    @extend .card;
+    justify-content: space-around;
+    width:99%;
     background-color:map-get($estilos,gradient-right);
     
-
-}
+    }
+    
 .nosotros_logo img{
     width:230px;
     height: 340px;

@@ -3,14 +3,18 @@
 
 
 /* --------------------------------recetas----------------------------------------*/
+/*MIXIN----------------------------------------------------------------XCEX*/
 
-
-.receta_body{
+@mixin tarjeta{
+    margin-top: 10px;
     border: map-get($estilos,border);
     border-radius: 15px;
     justify-content: space-around;
     width:99%;
 
+}
+.receta_body{
+    @include tarjeta();
 }
 
 h3{
