@@ -116,8 +116,7 @@ h3{
     @extend .card;
     justify-content: space-around;
     width:99%;
-    background-color:map-get($estilos,gradient-right);
-    
+    background:$gradient-right;    
     }
     
 .nosotros_logo img{

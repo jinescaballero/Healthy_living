@@ -18,6 +18,8 @@
     margin-top: 10px;
     border: map-get($estilos,border);
     border-radius: 15px;
+    padding:10px;
+
 }
 
 .carousel-inner>.active {
@@ -37,5 +39,11 @@
         margin-bottom: 10px;
         line-height: 1,5;
     
+    }
+}
+
+@media (min-width:1700px) and (max-width:2000px){
+    .carousel-inner>.active {
+        transform: translateX(35%);
     }
 }
