@@ -117,7 +117,7 @@ h3{
     justify-content: space-around;
     width:99%;
     background:$gradient-right;
-    
+    border: map-get($estilos,border);
     }
     
 .nosotros_logo img{

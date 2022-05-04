@@ -132,7 +132,6 @@ h1 {
 
 .card {
   margin-top: 10px;
-  border: 2px solid #b6f8f4;
   border-radius: 15px;
   padding: 10px;
 }
@@ -188,8 +187,8 @@ h1 {
   .card {
     border: 2px solid #b6f8f4;
     border-radius: 15px;
-    margin: 10px;
-    height: 300px;
+    margin: 7px;
+    height: 320px;
   }
 
   .nosotros_logo img {
@@ -237,8 +236,8 @@ h1 {
   .card {
     border: 2px solid #b6f8f4;
     border-radius: 15px;
-    margin: 10px;
-    height: 310px;
+    margin: 7px;
+    height: 325px;
   }
 
   .nosotros_logo img {
@@ -348,6 +347,7 @@ h3 {
   justify-content: space-around;
   width: 99%;
   background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 70%, #e2fdf4 100%);
+  border: 2px solid #b6f8f4;
 }
 
 .nosotros_logo img {
