@@ -1,5 +1,5 @@
 /*----------------------------------responsive 701px to 800px -------------------------*/
-@media (min-width:701px) and (max-width:800px){
+@media (min-width:701px) and (max-width:850px){
     /*Imagen del Index*/
     .item img{
         margin-top: 120px;
@@ -9,7 +9,7 @@
         display:none
         
     }
-    /*---Centrando Carousel de indez ---- */
+    /*---Centrando Carousel de index ---- */
     .carousel-inner>.active {
         transform: translateX(15%);
         img{
@@ -44,5 +44,6 @@
     .copy_footer{
         font-size: 14px;
     }
+
 
 }

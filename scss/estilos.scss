@@ -113,7 +113,7 @@ h3{
 /*------------------------------Sobre Nosotros ----------------------------*/
 /*extend: Container body extiende de la clase card de index  */
 .container_body{
-    @extend .card;
+    @extend .imagen_receta;
     justify-content: space-around;
     width:99%;
     background:$gradient-right;

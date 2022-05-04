@@ -24,7 +24,7 @@ h4 {
   margin-left: 10px;
 }
 
-.imagen_receta {
+.imagen_receta, .container_body {
   margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -130,7 +130,7 @@ h1 {
   height: 230px;
 }
 
-.card, .container_body {
+.card {
   margin-top: 10px;
   border: 2px solid #b6f8f4;
   border-radius: 15px;
@@ -162,7 +162,7 @@ h1 {
   }
 }
 /*----------------------------------responsive 701px to 800px -------------------------*/
-@media (min-width: 701px) and (max-width: 800px) {
+@media (min-width: 701px) and (max-width: 850px) {
   /*Imagen del Index*/
   .item img {
     margin-top: 120px;
@@ -172,7 +172,7 @@ h1 {
     display: none;
   }
 
-  /*---Centrando Carousel de indez ---- */
+  /*---Centrando Carousel de index ---- */
   .carousel-inner > .active {
     transform: translateX(15%);
   }
@@ -185,7 +185,7 @@ h1 {
     display: flex;
   }
 
-  .card, .container_body {
+  .card {
     border: 2px solid #b6f8f4;
     border-radius: 15px;
     margin: 10px;
@@ -234,7 +234,7 @@ h1 {
     display: flex;
   }
 
-  .card, .container_body {
+  .card {
     border: 2px solid #b6f8f4;
     border-radius: 15px;
     margin: 10px;
